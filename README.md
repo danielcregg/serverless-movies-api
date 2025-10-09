@@ -1,47 +1,104 @@
 # 🎬 Movies API
 
-A simple, free, and publicly accessible movies API hosted on GitHub Pages.
+A simple, free, and publicly accessible movies API with **two deployment options**:
+- **GitHub Pages** - Static JSON API (read-only)
+- **Vercel** - Full dynamic API with CRUD operations
 
-## 🚀 Live Demo
+## 🚀 Live Demos
 
-Visit the API documentation: `https://[your-username].github.io/public-hosted-api/`
+- **GitHub Pages (Static)**: `https://danielcregg.github.io/public-hosted-api/`
+- **Vercel (Dynamic)**: `https://your-project.vercel.app/` (after deployment)
 
 ## 📚 API Endpoints
 
-### Get All Movies
-```
-https://[your-username].github.io/public-hosted-api/api/movies.json
-```
-Returns a list of 10 popular movies with detailed information.
+### GitHub Pages (Static API - Read Only)
 
-### Get All Genres
+#### Get All Movies
 ```
-https://[your-username].github.io/public-hosted-api/api/genres.json
+https://danielcregg.github.io/public-hosted-api/api/movies.json
 ```
-Returns a list of available movie genres.
+
+#### Get All Genres
+```
+https://danielcregg.github.io/public-hosted-api/api/genres.json
+```
+
+### Vercel (Dynamic API - Full CRUD)
+
+#### Movies
+- `GET /api/movies` - Get all movies
+- `GET /api/movies/1` - Get movie by ID
+- `GET /api/movies?genre=Action` - Filter by genre
+- `GET /api/movies?year=1994` - Filter by year
+- `GET /api/movies?minRating=9.0` - Filter by rating
+- `GET /api/movies?search=batman` - Search movies
+- `GET /api/movies?sortBy=rating&order=desc` - Sort movies
+- `POST /api/movies` - Add new movie
+- `PUT /api/movies/1` - Update movie
+- `DELETE /api/movies/1` - Delete movie
+
+#### Genres
+- `GET /api/genres` - Get all genres
+- `GET /api/genres/1` - Get genre by ID
+- `POST /api/genres` - Add new genre
+- `PUT /api/genres/1` - Update genre
+- `DELETE /api/genres/1` - Delete genre
 
 ## 💡 Usage Examples
 
-### JavaScript (Fetch API)
+### GitHub Pages (Static - Read Only)
+
 ```javascript
-fetch('https://[your-username].github.io/public-hosted-api/api/movies.json')
+// Get all movies
+fetch('https://danielcregg.github.io/public-hosted-api/api/movies.json')
   .then(response => response.json())
-  .then(data => console.log(data))
-  .catch(error => console.error('Error:', error));
+  .then(data => console.log(data));
 ```
 
-### Python (requests)
-```python
-import requests
+### Vercel (Dynamic - Full CRUD)
 
-response = requests.get('https://[your-username].github.io/public-hosted-api/api/movies.json')
-movies = response.json()
-print(movies)
-```
+```javascript
+// Get all movies
+fetch('https://your-project.vercel.app/api/movies')
+  .then(res => res.json())
+  .then(data => console.log(data));
 
-### cURL
-```bash
-curl https://[your-username].github.io/public-hosted-api/api/movies.json
+// Get filtered movies
+fetch('https://your-project.vercel.app/api/movies?genre=Action&minRating=8.5')
+  .then(res => res.json())
+  .then(data => console.log(data));
+
+// Add a new movie
+fetch('https://your-project.vercel.app/api/movies', {
+  method: 'POST',
+  headers: { 'Content-Type': 'application/json' },
+  body: JSON.stringify({
+    title: 'New Movie',
+    year: 2024,
+    director: 'Director Name',
+    genre: ['Action'],
+    rating: 8.5,
+    description: 'Movie description'
+  })
+})
+  .then(res => res.json())
+  .then(data => console.log(data));
+
+// Update a movie
+fetch('https://your-project.vercel.app/api/movies/1', {
+  method: 'PUT',
+  headers: { 'Content-Type': 'application/json' },
+  body: JSON.stringify({ rating: 9.5 })
+})
+  .then(res => res.json())
+  .then(data => console.log(data));
+
+// Delete a movie
+fetch('https://your-project.vercel.app/api/movies/1', {
+  method: 'DELETE'
+})
+  .then(res => res.json())
+  .then(data => console.log(data));
 ```
 
 ## 📖 Response Format
@@ -70,6 +127,8 @@ curl https://[your-username].github.io/public-hosted-api/api/movies.json
 
 ## 🛠️ Setup Instructions
 
+### GitHub Pages (Static API)
+
 1. **Fork this repository** to your GitHub account
 
 2. **Enable GitHub Pages**:
@@ -85,17 +144,38 @@ curl https://[your-username].github.io/public-hosted-api/api/movies.json
    https://[your-username].github.io/public-hosted-api/
    ```
 
-5. **Update URLs**: Replace `[your-username]` in the examples with your actual GitHub username
+### Vercel (Dynamic API)
+
+1. **Go to [vercel.com](https://vercel.com)** and sign up/login
+
+2. **Import your repository**:
+   - Click "Add New Project"
+   - Import your `public-hosted-api` repository
+   - Click "Deploy"
+
+3. **Done!** Your dynamic API will be live at `https://your-project.vercel.app`
+
+For detailed Vercel setup and API usage, see [VERCEL_SETUP.md](VERCEL_SETUP.md)
 
 ## ✨ Features
 
+### GitHub Pages Version
 - ✅ No authentication required
 - ✅ Free to use
-- ✅ Fast and reliable (hosted on GitHub Pages)
-- ✅ CORS enabled (works from any domain)
-- ✅ Clean JSON format
-- ✅ Interactive documentation
-- ✅ Responsive design
+- ✅ 100% uptime (static files)
+- ✅ CORS enabled
+- ✅ Perfect for read-only use cases
+- ✅ Interactive documentation page
+
+### Vercel Version
+- ✅ Full CRUD operations (POST/PUT/DELETE)
+- ✅ Query parameters and filtering
+- ✅ Search functionality
+- ✅ Sort by any field
+- ✅ Get single resources by ID
+- ✅ RESTful API design
+- ✅ Professional error handling
+- ✅ CORS enabled
 
 ## 📝 Data Structure
 
@@ -103,14 +183,27 @@ The API includes:
 - **10 movies** with titles, years, genres, directors, ratings, and descriptions
 - **9 genres** with descriptions
 
+## 🔄 Which Version Should I Use?
+
+| Use Case | Recommended |
+|----------|-------------|
+| Read-only access | GitHub Pages |
+| Need to add/update/delete data | Vercel |
+| Learning REST APIs | Vercel |
+| Portfolio projects | Both |
+| Production with persistence | Vercel + Database |
+| Maximum reliability | GitHub Pages |
+
 ## 🤝 Contributing
 
 Feel free to fork this repository and add more movies or features! Some ideas:
 - Add more movies to the database
-- Create additional endpoints (by year, by genre, etc.)
 - Add movie posters (via URLs)
 - Include cast information
 - Add box office data
+- Integrate a real database (MongoDB, PostgreSQL)
+- Add authentication
+- Add rate limiting
 
 ## 📄 License
 

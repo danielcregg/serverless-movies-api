@@ -1,0 +1,50 @@
+// In-memory data store for genres
+let genres = [
+  {
+    id: 1,
+    name: "Action",
+    description: "Action films feature high energy, big-budget physical stunts and chases."
+  },
+  {
+    id: 2,
+    name: "Drama",
+    description: "Drama films are serious presentations or stories with settings or life situations that portray realistic characters."
+  },
+  {
+    id: 3,
+    name: "Crime",
+    description: "Crime films are developed around the sinister actions of criminals or gangsters."
+  },
+  {
+    id: 4,
+    name: "Sci-Fi",
+    description: "Science fiction films feature futuristic or scientifically based themes."
+  },
+  {
+    id: 5,
+    name: "Thriller",
+    description: "Thriller films are designed to hold your attention and keep you on the edge of your seat."
+  },
+  {
+    id: 6,
+    name: "Romance",
+    description: "Romance films focus on passion, emotion, and the romantic involvement of the main characters."
+  },
+  {
+    id: 7,
+    name: "Adventure",
+    description: "Adventure films are exciting stories with new experiences or exotic locales."
+  },
+  {
+    id: 8,
+    name: "Fantasy",
+    description: "Fantasy films are films that belong to the fantasy genre with fantastic themes."
+  },
+  {
+    id: 9,
+    name: "Biography",
+    description: "Biography films are based on the life story of a real person."
+  }
+];
+
+module.exports = { genres };
