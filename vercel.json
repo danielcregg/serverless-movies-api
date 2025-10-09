@@ -1,39 +1,28 @@
 {
-  "version": 2,
-  "builds": [
+  "rewrites": [
     {
-      "src": "api-server/**/*.js",
-      "use": "@vercel/node"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/api/movies",
-      "dest": "/api-server/movies.js"
+      "source": "/api/movies/:path*",
+      "destination": "/api-server/movies.js"
     },
     {
-      "src": "/api/movies/(.*)",
-      "dest": "/api-server/movies.js"
+      "source": "/api/movies",
+      "destination": "/api-server/movies.js"
     },
     {
-      "src": "/api/genres",
-      "dest": "/api-server/genres.js"
+      "source": "/api/genres/:path*",
+      "destination": "/api-server/genres.js"
     },
     {
-      "src": "/api/genres/(.*)",
-      "dest": "/api-server/genres.js"
+      "source": "/api/genres",
+      "destination": "/api-server/genres.js"
     },
     {
-      "src": "/api/boxoffice",
-      "dest": "/api-server/boxoffice.js"
+      "source": "/api/boxoffice/:path*",
+      "destination": "/api-server/boxoffice.js"
     },
     {
-      "src": "/api/boxoffice/(.*)",
-      "dest": "/api-server/boxoffice.js"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/$1"
+      "source": "/api/boxoffice",
+      "destination": "/api-server/boxoffice.js"
     }
   ],
   "headers": [
