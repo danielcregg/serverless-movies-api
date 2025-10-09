@@ -1,0 +1,13 @@
+# GitHub Pages configuration
+# This enables GitHub Pages and ensures proper handling of JSON files
+
+include:
+  - api
+
+# Ensure JSON files are served with correct MIME type
+defaults:
+  -
+    scope:
+      path: "api"
+    values:
+      layout: none
