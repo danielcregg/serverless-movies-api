@@ -23,6 +23,11 @@ https://danielcregg.github.io/public-hosted-api/api/movies.json
 https://danielcregg.github.io/public-hosted-api/api/genres.json
 ```
 
+#### Get Irish Box Office (Updated Weekly) 🆕
+```
+https://danielcregg.github.io/public-hosted-api/api/boxoffice.json
+```
+
 ### Vercel (Dynamic API - Full CRUD)
 
 #### Movies
@@ -43,6 +48,13 @@ https://danielcregg.github.io/public-hosted-api/api/genres.json
 - `POST /api/genres` - Add new genre
 - `PUT /api/genres/1` - Update genre
 - `DELETE /api/genres/1` - Delete genre
+
+#### Irish Box Office (Auto-updated every Monday) 🆕
+- `GET /api/boxoffice` - Get top 10 box office movies in Ireland
+- `GET /api/boxoffice/1` - Get #1 movie by rank
+- `GET /api/boxoffice?genre=Action` - Filter by genre
+- `GET /api/boxoffice?minRating=8.0` - Filter by rating
+- `GET /api/boxoffice?year=2024` - Filter by year
 
 ## 💡 Usage Examples
 
@@ -157,6 +169,8 @@ fetch('https://your-project.vercel.app/api/movies/1', {
 
 For detailed Vercel setup and API usage, see [VERCEL_SETUP.md](VERCEL_SETUP.md)
 
+**🆕 For Irish Box Office setup**, see [BOXOFFICE_SETUP.md](BOXOFFICE_SETUP.md)
+
 ## ✨ Features
 
 ### GitHub Pages Version
@@ -177,11 +191,20 @@ For detailed Vercel setup and API usage, see [VERCEL_SETUP.md](VERCEL_SETUP.md)
 - ✅ Professional error handling
 - ✅ CORS enabled
 
+### 🆕 Irish Box Office (Automatic Weekly Updates)
+- ✅ Auto-updates every Monday at 9 AM UTC
+- ✅ Real data from The Movie Database (TMDB)
+- ✅ Top 10 movies in Ireland
+- ✅ Includes posters, ratings, and full details
+- ✅ Works on both GitHub Pages and Vercel
+- ✅ Filter by genre, rating, or year
+
 ## 📝 Data Structure
 
 The API includes:
-- **10 movies** with titles, years, genres, directors, ratings, and descriptions
+- **10 classic movies** with titles, years, genres, directors, ratings, and descriptions
 - **9 genres** with descriptions
+- **🆕 Top 10 Irish box office movies** (auto-updated weekly) with full details, posters, and ratings
 
 ## 🔄 Which Version Should I Use?
 

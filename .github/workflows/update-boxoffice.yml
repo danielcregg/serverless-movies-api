@@ -1,0 +1,50 @@
+name: Update Irish Box Office
+
+on:
+  # Run every Monday at 9:00 AM UTC (10:00 AM Irish time)
+  schedule:
+    - cron: '0 9 * * 1'
+  
+  # Allow manual trigger
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-boxoffice:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+      
+      - name: Fetch Irish Box Office Data
+        env:
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+        run: |
+          echo "🎬 Fetching Irish Box Office Top 10..."
+          node scripts/update-boxoffice.js
+      
+      - name: Check for changes
+        id: changes
+        run: |
+          git diff --quiet || echo "changed=true" >> $GITHUB_OUTPUT
+      
+      - name: Commit and push if changed
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add api/boxoffice.json api-server/data/boxoffice.js
+          git commit -m "🎬 Update Irish Box Office - $(date +'%Y-%m-%d')"
+          git push
+      
+      - name: No changes
+        if: steps.changes.outputs.changed != 'true'
+        run: echo "📊 No changes in box office data"

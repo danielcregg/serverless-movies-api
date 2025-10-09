@@ -24,6 +24,14 @@
       "dest": "/api-server/genres.js"
     },
     {
+      "src": "/api/boxoffice",
+      "dest": "/api-server/boxoffice.js"
+    },
+    {
+      "src": "/api/boxoffice/(.*)",
+      "dest": "/api-server/boxoffice.js"
+    },
+    {
       "src": "/(.*)",
       "dest": "/$1"
     }

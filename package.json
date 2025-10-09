@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vercel dev",
     "build": "echo 'No build needed for serverless functions'",
-    "deploy": "vercel --prod"
+    "deploy": "vercel --prod",
+    "update-boxoffice": "node scripts/update-boxoffice.js"
   },
   "keywords": [
     "api",
