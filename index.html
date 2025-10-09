@@ -265,20 +265,25 @@ fetch('https://[your-username].github.io/public-hosted-api/api/genres.json')
     </div>
     
     <script>
-        // Get the base URL dynamically
-        const baseUrl = window.location.origin + window.location.pathname.replace('index.html', '');
-        
-        // Update URLs
-        document.getElementById('moviesUrl').textContent = baseUrl + 'api/movies.json';
-        document.getElementById('genresUrl').textContent = baseUrl + 'api/genres.json';
-        
+        // Determine runtime environment (static GitHub Pages vs dynamic Vercel)
+        const pathWithoutIndex = window.location.pathname.replace(/index\.html$/, '');
+        const normalizedPath = pathWithoutIndex.endsWith('/') ? pathWithoutIndex : `${pathWithoutIndex}/`;
+        const baseUrl = `${window.location.origin}${normalizedPath}`;
+        const useStaticJson = window.location.hostname.includes('github.io') || window.location.protocol === 'file:';
+        const moviesEndpoint = useStaticJson ? `${baseUrl}api/movies.json` : `${baseUrl}api/movies`;
+        const genresEndpoint = useStaticJson ? `${baseUrl}api/genres.json` : `${baseUrl}api/genres`;
+
+        // Update URLs shown on the page
+        document.getElementById('moviesUrl').textContent = moviesEndpoint;
+        document.getElementById('genresUrl').textContent = genresEndpoint;
+
         // Fetch and display movies
         function fetchMovies() {
             const responseDiv = document.getElementById('moviesResponse');
             responseDiv.style.display = 'block';
             responseDiv.innerHTML = '<pre>Loading...</pre>';
-            
-            fetch(baseUrl + 'api/movies.json')
+
+            fetch(moviesEndpoint)
                 .then(response => response.json())
                 .then(data => {
                     responseDiv.innerHTML = '<pre>' + JSON.stringify(data, null, 2) + '</pre>';
@@ -287,14 +292,14 @@ fetch('https://[your-username].github.io/public-hosted-api/api/genres.json')
                     responseDiv.innerHTML = '<pre>Error: ' + error.message + '</pre>';
                 });
         }
-        
+
         // Fetch and display genres
         function fetchGenres() {
             const responseDiv = document.getElementById('genresResponse');
             responseDiv.style.display = 'block';
             responseDiv.innerHTML = '<pre>Loading...</pre>';
-            
-            fetch(baseUrl + 'api/genres.json')
+
+            fetch(genresEndpoint)
                 .then(response => response.json())
                 .then(data => {
                     responseDiv.innerHTML = '<pre>' + JSON.stringify(data, null, 2) + '</pre>';
@@ -303,10 +308,10 @@ fetch('https://[your-username].github.io/public-hosted-api/api/genres.json')
                     responseDiv.innerHTML = '<pre>Error: ' + error.message + '</pre>';
                 });
         }
-        
+
         // Load and display movies on page load
         function loadMoviesGrid() {
-            fetch(baseUrl + 'api/movies.json')
+            fetch(moviesEndpoint)
                 .then(response => response.json())
                 .then(movies => {
                     const grid = document.getElementById('moviesGrid');
@@ -329,7 +334,7 @@ fetch('https://[your-username].github.io/public-hosted-api/api/genres.json')
                     document.getElementById('moviesGrid').innerHTML = '<p>Error loading movies: ' + error.message + '</p>';
                 });
         }
-        
+
         // Load movies when page loads
         loadMoviesGrid();
     </script>
