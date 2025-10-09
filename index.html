@@ -190,7 +190,7 @@
         <div class="content">
             <div class="section">
                 <h2>📚 About</h2>
-                <p>This is a simple REST API that provides information about popular movies. All data is served as static JSON files, making it fast, reliable, and completely free to use. No authentication required!</p>
+                <p>This API combines static JSON snapshots (via GitHub Pages) with dynamic Vercel serverless functions so you can fetch, filter, and mutate movie data in real time. The Irish Box Office top 10 refreshes automatically every Monday morning using GitHub Actions.</p>
             </div>
             
             <div class="section">
@@ -211,32 +211,58 @@
                     <button class="try-button" onclick="fetchGenres()">Try It</button>
                     <div class="response" id="genresResponse"></div>
                 </div>
+
+                                <div class="endpoint">
+                                        <h3>Get Irish Box Office (Updates Monday)</h3>
+                                        <p>Returns the current Irish top 10 box office titles. Data auto-refreshes every Monday via GitHub Actions.</p>
+                                        <div class="url" id="boxOfficeUrl">Loading...</div>
+                                        <button class="try-button" onclick="fetchBoxOffice()">Try It</button>
+                                        <div class="response" id="boxOfficeResponse"></div>
+                                </div>
             </div>
             
             <div class="section">
-                <h2>🎥 Featured Movies</h2>
-                <div class="movies-grid" id="moviesGrid">
-                    <p>Loading movies...</p>
+                                <h2>🎥 Featured Movies</h2>
+                                <div class="movies-grid" id="moviesGrid">
+                                        <p>Loading movies...</p>
                 </div>
             </div>
             
             <div class="section">
-                <h2>💻 Usage Example</h2>
+                                <h2>💻 Usage Examples (Dynamic)</h2>
                 <div class="endpoint">
                     <h3>JavaScript (Fetch API)</h3>
                     <div class="response" style="display: block;">
                         <pre>
-// Fetch all movies
-fetch('https://[your-username].github.io/public-hosted-api/api/movies.json')
-  .then(response => response.json())
-  .then(data => console.log(data))
-  .catch(error => console.error('Error:', error));
+const apiBase = 'https://your-vercel-project.vercel.app';
 
-// Fetch genres
-fetch('https://[your-username].github.io/public-hosted-api/api/genres.json')
-  .then(response => response.json())
-  .then(data => console.log(data))
-  .catch(error => console.error('Error:', error));</pre>
+// Fetch all movies (GET /api/movies)
+fetch(`${apiBase}/api/movies`)
+    .then(res => res.json())
+    .then(console.log);
+
+// Filter movies (GET /api/movies?genre=Action&minRating=8.5)
+fetch(`${apiBase}/api/movies?genre=Action&minRating=8.5`)
+    .then(res => res.json())
+    .then(console.log);
+
+// Add a movie (POST /api/movies)
+fetch(`${apiBase}/api/movies`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+        title: 'My Movie',
+        year: 2025,
+        director: 'Me',
+        genre: ['Adventure'],
+        rating: 8.1
+    })
+}).then(res => res.json()).then(console.log);
+
+// Irish box office (GET /api/boxoffice)
+fetch(`${apiBase}/api/boxoffice`)
+    .then(res => res.json())
+    .then(console.log);</pre>
                     </div>
                 </div>
             </div>
@@ -270,12 +296,14 @@ fetch('https://[your-username].github.io/public-hosted-api/api/genres.json')
         const normalizedPath = pathWithoutIndex.endsWith('/') ? pathWithoutIndex : `${pathWithoutIndex}/`;
         const baseUrl = `${window.location.origin}${normalizedPath}`;
         const useStaticJson = window.location.hostname.includes('github.io') || window.location.protocol === 'file:';
-        const moviesEndpoint = useStaticJson ? `${baseUrl}api/movies.json` : `${baseUrl}api/movies`;
-        const genresEndpoint = useStaticJson ? `${baseUrl}api/genres.json` : `${baseUrl}api/genres`;
+    const moviesEndpoint = useStaticJson ? `${baseUrl}api/movies.json` : `${baseUrl}api/movies`;
+    const genresEndpoint = useStaticJson ? `${baseUrl}api/genres.json` : `${baseUrl}api/genres`;
+    const boxOfficeEndpoint = useStaticJson ? `${baseUrl}api/boxoffice.json` : `${baseUrl}api/boxoffice`;
 
         // Update URLs shown on the page
         document.getElementById('moviesUrl').textContent = moviesEndpoint;
         document.getElementById('genresUrl').textContent = genresEndpoint;
+    document.getElementById('boxOfficeUrl').textContent = boxOfficeEndpoint;
 
         // Fetch and display movies
         function fetchMovies() {
@@ -300,6 +328,21 @@ fetch('https://[your-username].github.io/public-hosted-api/api/genres.json')
             responseDiv.innerHTML = '<pre>Loading...</pre>';
 
             fetch(genresEndpoint)
+                .then(response => response.json())
+                .then(data => {
+                    responseDiv.innerHTML = '<pre>' + JSON.stringify(data, null, 2) + '</pre>';
+                })
+                .catch(error => {
+                    responseDiv.innerHTML = '<pre>Error: ' + error.message + '</pre>';
+                });
+        }
+
+        function fetchBoxOffice() {
+            const responseDiv = document.getElementById('boxOfficeResponse');
+            responseDiv.style.display = 'block';
+            responseDiv.innerHTML = '<pre>Loading...</pre>';
+
+            fetch(boxOfficeEndpoint)
                 .then(response => response.json())
                 .then(data => {
                     responseDiv.innerHTML = '<pre>' + JSON.stringify(data, null, 2) + '</pre>';
