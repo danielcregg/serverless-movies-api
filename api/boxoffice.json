@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-10-09T14:59:32.478Z",
+  "lastUpdated": "2025-10-09T16:10:26.930Z",
   "region": "Ireland",
   "source": "The Movie Database (TMDB)",
   "movies": [
@@ -16,7 +16,7 @@
       ],
       "director": "Michael Chaves",
       "rating": 6.9,
-      "voteCount": 682,
+      "voteCount": 690,
       "popularity": 590.6,
       "overview": "Paranormal investigators Ed and Lorraine Warren take on one last terrifying case involving mysterious entities they must confront.",
       "posterPath": "https://image.tmdb.org/t/p/w500/7JzOmJ1fIU43I3gLHYsY8UzNzjG.jpg",
@@ -26,30 +26,8 @@
       "revenue": 459673036
     },
     {
-      "id": 1186350,
-      "rank": 2,
-      "title": "Marco",
-      "year": 2024,
-      "releaseDate": "2024-12-20",
-      "genre": [
-        "Action",
-        "Crime",
-        "Thriller"
-      ],
-      "director": "Haneef Adeni",
-      "rating": 6.4,
-      "voteCount": 52,
-      "popularity": 376.6,
-      "overview": "The adoptive son of the Adattu family, Marco, sets off on a ruthless quest for vengeance after his brother is brutally murdered, finding only betrayal, loss and unimaginable brutality at every step.",
-      "posterPath": "https://image.tmdb.org/t/p/w500/il3ao5gcF6fZNqo1o9o7lusmEyU.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/original/a6RkQIOZ6wThQOEDv6lHsfH53hD.jpg",
-      "runtime": 145,
-      "budget": 3467000,
-      "revenue": 11559000
-    },
-    {
       "id": 338969,
-      "rank": 3,
+      "rank": 2,
       "title": "The Toxic Avenger Unrated",
       "year": 2025,
       "releaseDate": "2025-08-29",
@@ -71,7 +49,7 @@
     },
     {
       "id": 1086910,
-      "rank": 4,
+      "rank": 3,
       "title": "The Lost Princess",
       "year": 2025,
       "releaseDate": "2025-10-16",
@@ -91,6 +69,28 @@
       "revenue": 0
     },
     {
+      "id": 1186350,
+      "rank": 4,
+      "title": "Marco",
+      "year": 2024,
+      "releaseDate": "2024-12-20",
+      "genre": [
+        "Action",
+        "Crime",
+        "Thriller"
+      ],
+      "director": "Haneef Adeni",
+      "rating": 6.4,
+      "voteCount": 52,
+      "popularity": 376.6,
+      "overview": "The adoptive son of the Adattu family, Marco, sets off on a ruthless quest for vengeance after his brother is brutally murdered, finding only betrayal, loss and unimaginable brutality at every step.",
+      "posterPath": "https://image.tmdb.org/t/p/w500/il3ao5gcF6fZNqo1o9o7lusmEyU.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/original/a6RkQIOZ6wThQOEDv6lHsfH53hD.jpg",
+      "runtime": 145,
+      "budget": 3467000,
+      "revenue": 11559000
+    },
+    {
       "id": 941109,
       "rank": 5,
       "title": "Play Dirty",
@@ -100,8 +100,8 @@
         "Crime"
       ],
       "director": "Shane Black",
-      "rating": 6.6,
-      "voteCount": 210,
+      "rating": 6.7,
+      "voteCount": 213,
       "popularity": 371.1,
       "overview": "Expert thief Parker gets a shot at a major heist, but to pull it off he and his team must outsmart a South American dictator, the New York mob, and the world's richest man.",
       "posterPath": "https://image.tmdb.org/t/p/w500/ovZ0zq0NwRghtWI1oLaM0lWuoEw.jpg",
@@ -111,8 +111,31 @@
       "revenue": 0
     },
     {
-      "id": 1311031,
+      "id": 793387,
       "rank": 6,
+      "title": "Holy Night: Demon Hunters",
+      "year": 2025,
+      "releaseDate": "2025-04-30",
+      "genre": [
+        "Action",
+        "Fantasy",
+        "Horror",
+        "Thriller"
+      ],
+      "director": "Lim Dae-hee",
+      "rating": 6.6,
+      "voteCount": 44,
+      "popularity": 349.1,
+      "overview": "When a devil-worshipping criminal network plunges Seoul into chaos, the police turn to Holy Night—a trio of supernatural demon hunters—to restore order and defeat the rising evil.",
+      "posterPath": "https://image.tmdb.org/t/p/w500/v3Mo77Qjp6pctpD4eJaNT6kFRSB.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/original/nSUKgl7C0xU3vjQNDFWlRtvch0V.jpg",
+      "runtime": 92,
+      "budget": 0,
+      "revenue": 6500000
+    },
+    {
+      "id": 1311031,
+      "rank": 7,
       "title": "Demon Slayer: Kimetsu no Yaiba Infinity Castle",
       "year": 2025,
       "releaseDate": "2025-07-18",
@@ -134,29 +157,6 @@
       "revenue": 643612593
     },
     {
-      "id": 793387,
-      "rank": 7,
-      "title": "Holy Night: Demon Hunters",
-      "year": 2025,
-      "releaseDate": "2025-04-30",
-      "genre": [
-        "Action",
-        "Fantasy",
-        "Horror",
-        "Thriller"
-      ],
-      "director": "Lim Dae-hee",
-      "rating": 6.7,
-      "voteCount": 45,
-      "popularity": 349.1,
-      "overview": "When a devil-worshipping criminal network plunges Seoul into chaos, the police turn to Holy Night—a trio of supernatural demon hunters—to restore order and defeat the rising evil.",
-      "posterPath": "https://image.tmdb.org/t/p/w500/v3Mo77Qjp6pctpD4eJaNT6kFRSB.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/original/nSUKgl7C0xU3vjQNDFWlRtvch0V.jpg",
-      "runtime": 92,
-      "budget": 0,
-      "revenue": 6500000
-    },
-    {
       "id": 755898,
       "rank": 8,
       "title": "War of the Worlds",
@@ -168,7 +168,7 @@
       ],
       "director": "Rich Lee",
       "rating": 4.4,
-      "voteCount": 611,
+      "voteCount": 614,
       "popularity": 328.3,
       "overview": "Will Radford is a top analyst for Homeland Security who tracks potential threats through a mass surveillance program, until one day an attack by an unknown entity leads him to question whether the government is hiding something from him... and from the rest of the world.",
       "posterPath": "https://image.tmdb.org/t/p/w500/yvirUYrva23IudARHn3mMGVxWqM.jpg",
@@ -178,8 +178,29 @@
       "revenue": 0
     },
     {
-      "id": 1257009,
+      "id": 617126,
       "rank": 9,
+      "title": "The Fantastic 4: First Steps",
+      "year": 2025,
+      "releaseDate": "2025-07-24",
+      "genre": [
+        "Science Fiction",
+        "Adventure"
+      ],
+      "director": "Matt Shakman",
+      "rating": 7.2,
+      "voteCount": 1890,
+      "popularity": 264.8,
+      "overview": "Against the vibrant backdrop of a 1960s-inspired, retro-futuristic world, Marvel's First Family is forced to balance their roles as heroes with the strength of their family bond, while defending Earth from a ravenous space god called Galactus and his enigmatic Herald, Silver Surfer.",
+      "posterPath": "https://image.tmdb.org/t/p/w500/cm8TNGBGG0aBfWj0LgrESHv8tir.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/original/7FnmZCAjAwaHydgpjFKnu11MoWs.jpg",
+      "runtime": 115,
+      "budget": 200000000,
+      "revenue": 521347662
+    },
+    {
+      "id": 1257009,
+      "rank": 10,
       "title": "Primitive War",
       "year": 2025,
       "releaseDate": "2025-08-21",
@@ -198,27 +219,6 @@
       "runtime": 133,
       "budget": 0,
       "revenue": 217753
-    },
-    {
-      "id": 617126,
-      "rank": 10,
-      "title": "The Fantastic 4: First Steps",
-      "year": 2025,
-      "releaseDate": "2025-07-24",
-      "genre": [
-        "Science Fiction",
-        "Adventure"
-      ],
-      "director": "Matt Shakman",
-      "rating": 7.2,
-      "voteCount": 1887,
-      "popularity": 264.8,
-      "overview": "Against the vibrant backdrop of a 1960s-inspired, retro-futuristic world, Marvel's First Family is forced to balance their roles as heroes with the strength of their family bond, while defending Earth from a ravenous space god called Galactus and his enigmatic Herald, Silver Surfer.",
-      "posterPath": "https://image.tmdb.org/t/p/w500/cm8TNGBGG0aBfWj0LgrESHv8tir.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/original/7FnmZCAjAwaHydgpjFKnu11MoWs.jpg",
-      "runtime": 115,
-      "budget": 200000000,
-      "revenue": 521347662
     }
   ]
 }
