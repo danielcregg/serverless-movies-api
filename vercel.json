@@ -1,4 +1,7 @@
 {
+  "buildCommand": "echo 'Serverless API - no build required'",
+  "outputDirectory": null,
+  "framework": null,
   "rewrites": [
     {
       "source": "/api/movies/:path*",
