@@ -4,9 +4,7 @@
   "description": "A simple movies API hosted on GitHub Pages and Vercel",
   "main": "api-server/movies.js",
   "scripts": {
-    "dev": "vercel dev",
     "build": "echo 'No build needed for serverless functions'",
-    "deploy": "vercel --prod",
     "update-boxoffice": "node scripts/update-boxoffice.js"
   },
   "keywords": [
@@ -19,7 +17,5 @@
   "author": "",
   "license": "MIT",
   "dependencies": {},
-  "devDependencies": {
-    "vercel": "^33.0.0"
-  }
+  "devDependencies": {}
 }
