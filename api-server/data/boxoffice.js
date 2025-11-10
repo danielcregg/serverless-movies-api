@@ -1,36 +1,165 @@
 // Auto-generated box office data
-// Last updated: 2025-11-03T09:16:57.249Z
+// Last updated: 2025-11-10T09:16:51.608Z
 
 let boxOfficeData = {
-  "lastUpdated": "2025-11-03T09:16:57.249Z",
+  "lastUpdated": "2025-11-10T09:16:51.608Z",
   "region": "Ireland",
   "source": "The Movie Database (TMDB)",
   "movies": [
     {
-      "id": 507244,
+      "id": 1062722,
       "rank": 1,
-      "title": "Afterburn",
+      "title": "Frankenstein",
       "year": 2025,
-      "releaseDate": "2025-09-22",
+      "releaseDate": "2025-10-24",
       "genre": [
+        "Drama",
+        "Horror",
+        "Science Fiction"
+      ],
+      "director": "Guillermo del Toro",
+      "rating": 8,
+      "voteCount": 665,
+      "popularity": 985.6,
+      "overview": "Dr. Victor Frankenstein, a brilliant but egotistical scientist, brings a creature to life in a monstrous experiment that ultimately leads to the undoing of both the creator and his tragic creation.",
+      "posterPath": "https://image.tmdb.org/t/p/w500/jJ8AiqKKiZWZaiYMyhlF0FNH4xJ.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/original/hpXBJxLD2SEf8l2CspmSeiHrBKX.jpg",
+      "runtime": 150,
+      "budget": 120000000,
+      "revenue": 144496
+    },
+    {
+      "id": 1197137,
+      "rank": 2,
+      "title": "Black Phone 2",
+      "year": 2025,
+      "releaseDate": "2025-10-17",
+      "genre": [
+        "Horror",
+        "Thriller"
+      ],
+      "director": "Scott Derrickson",
+      "rating": 7.2,
+      "voteCount": 385,
+      "popularity": 407.7,
+      "overview": "Four years after escaping The Grabber, Finney Blake is struggling with his life after captivity. When his sister Gwen begins receiving calls in her dreams from the black phone and seeing disturbing visions of three boys being stalked at a winter camp, the siblings become determined to solve the mystery and confront a killer who has grown more powerful in death and more significant to them than either could imagine.",
+      "posterPath": "https://image.tmdb.org/t/p/w500/xUWUODKPIilQoFUzjHM6wKJkP3Y.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/original/oe2TOWykcLSGq67XPH4Bb0N1oU3.jpg",
+      "runtime": 114,
+      "budget": 30000000,
+      "revenue": 120448000
+    },
+    {
+      "id": 1025527,
+      "rank": 3,
+      "title": "Abyss",
+      "year": 2024,
+      "releaseDate": "2024-12-11",
+      "genre": [
+        "Thriller",
+        "Action"
+      ],
+      "director": "Juan Carlos Medina",
+      "rating": 5.8,
+      "voteCount": 63,
+      "popularity": 337.4,
+      "overview": "11 years ago, inspector Malik couldn’t solve a kidnapping case and a little girl died. Now with only a few days before the crime gets classified, he decides to reopen the case. Malik owes it to the mother and to himself. As he digs into the past, a child is kidnapped again. The pattern is the same one as a decade ago, it’s no coincidence. Malik knows he has a few days to make things right and to bring justice.",
+      "posterPath": "https://image.tmdb.org/t/p/w500/foyiQu23zq4WhmffnQkFiNAvqcJ.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/original/tLf5hjuO4gx62lVojPiHsIzCroh.jpg",
+      "runtime": 95,
+      "budget": 0,
+      "revenue": 0
+    },
+    {
+      "id": 1242898,
+      "rank": 4,
+      "title": "Predator: Badlands",
+      "year": 2025,
+      "releaseDate": "2025-11-05",
+      "genre": [
+        "Action",
         "Science Fiction",
+        "Adventure"
+      ],
+      "director": "Dan Trachtenberg",
+      "rating": 7.1,
+      "voteCount": 169,
+      "popularity": 332.7,
+      "overview": "Cast out from his clan, a young Predator finds an unlikely ally in a damaged android and embarks on a treacherous journey in search of the ultimate adversary.",
+      "posterPath": "https://image.tmdb.org/t/p/w500/sMybEeAn3aFXsIUUcWPSFXlS6qS.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/original/82lM4GJ9uuNvNDOEpxFy77uv4Ak.jpg",
+      "runtime": 107,
+      "budget": 105000000,
+      "revenue": 80000000
+    },
+    {
+      "id": 1096563,
+      "rank": 5,
+      "title": "End of Loyalty",
+      "year": 2023,
+      "releaseDate": "2023-03-07",
+      "genre": [
+        "Crime",
+        "Action"
+      ],
+      "director": "Hiroshi Katagiri",
+      "rating": 5,
+      "voteCount": 5,
+      "popularity": 279.5,
+      "overview": "When the head of a notorious crime family is murdered, his son Grant is hell bent on payback and the only person that can stop him from tearing the city apart and destroying himself in the process is his best friend and federal agent, Ray Rose.",
+      "posterPath": "https://image.tmdb.org/t/p/w500/c4QA1rFQcyBZKaOOdUrDeL1G9Er.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/original/qskMJe62v9kPj4tD9UawIGW0WxD.jpg",
+      "runtime": 90,
+      "budget": 0,
+      "revenue": 0
+    },
+    {
+      "id": 1218925,
+      "rank": 6,
+      "title": "Chainsaw Man - The Movie: Reze Arc",
+      "year": 2025,
+      "releaseDate": "2025-10-24",
+      "genre": [
+        "Animation",
+        "Action",
+        "Romance",
+        "Fantasy"
+      ],
+      "director": "Tatsuya Yoshihara",
+      "rating": 8.2,
+      "voteCount": 162,
+      "popularity": 230.8,
+      "overview": "In a brutal war between devils, hunters, and secret enemies, a mysterious girl named Reze has stepped into Denji's world, and he faces his deadliest battle yet, fueled by love in a world where survival knows no rules.",
+      "posterPath": "https://image.tmdb.org/t/p/w500/xdzLBZjCVSEsic7m7nJc4jNJZVW.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/original/aWgwWKI27zlVHh7QcFkzJHsuo43.jpg",
+      "runtime": 100,
+      "budget": 0,
+      "revenue": 139000000
+    },
+    {
+      "id": 1161617,
+      "rank": 7,
+      "title": "Code 3",
+      "year": 2025,
+      "releaseDate": "2025-09-12",
+      "genre": [
         "Action",
         "Comedy"
       ],
-      "director": "J.J. Perry",
-      "rating": 6.8,
-      "voteCount": 91,
-      "popularity": 357.8,
-      "overview": "Set against the backdrop of a postapocalyptic Earth whose Eastern Hemisphere was destroyed by a massive solar flare, leaving what life remains mutated from radiation and fallout. The story revolves around a group of treasure hunters who extract such objects as the Mona Lisa, the Rosetta Stone and the Crown Jewels while facing rival hunters, mutants and pirates.",
-      "posterPath": "https://image.tmdb.org/t/p/w500/xR0IhVBjbNU34b8erhJCgRbjXo3.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/original/kHOfxq7cMTXyLbj0UmdoGhT540O.jpg",
-      "runtime": 105,
-      "budget": 60000000,
-      "revenue": 184758
+      "director": "Christopher Leone",
+      "rating": 7.1,
+      "voteCount": 78,
+      "popularity": 276.1,
+      "overview": "A burned-out paramedic tries to survive his last 24 hours on the job while training a new recruit.",
+      "posterPath": "https://image.tmdb.org/t/p/w500/gIAYMDb5mIAeCAj76q1sRsKjkzo.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/original/vZK3f5N8Fv2LcyFYLwt6dz0HE1H.jpg",
+      "runtime": 104,
+      "budget": 0,
+      "revenue": 12140
     },
     {
       "id": 755898,
-      "rank": 2,
+      "rank": 8,
       "title": "War of the Worlds",
       "year": 2025,
       "releaseDate": "2025-07-30",
@@ -40,8 +169,8 @@ let boxOfficeData = {
       ],
       "director": "Rich Lee",
       "rating": 4.3,
-      "voteCount": 672,
-      "popularity": 289,
+      "voteCount": 697,
+      "popularity": 229.5,
       "overview": "Will Radford is a top analyst for Homeland Security who tracks potential threats through a mass surveillance program, until one day an attack by an unknown entity leads him to question whether the government is hiding something from him... and from the rest of the world.",
       "posterPath": "https://image.tmdb.org/t/p/w500/yvirUYrva23IudARHn3mMGVxWqM.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/original/iZLqwEwUViJdSkGVjePGhxYzbDb.jpg",
@@ -50,72 +179,8 @@ let boxOfficeData = {
       "revenue": 0
     },
     {
-      "id": 1156594,
-      "rank": 3,
-      "title": "Our Fault",
-      "year": 2025,
-      "releaseDate": "2025-10-15",
-      "genre": [
-        "Romance",
-        "Drama"
-      ],
-      "director": "Domingo González",
-      "rating": 7.6,
-      "voteCount": 453,
-      "popularity": 209.1,
-      "overview": "Jenna and Lion's wedding brings about the long-awaited reunion between Noah and Nick after their breakup. Nick's inability to forgive Noah stands as an insurmountable barrier. He, heir to his grandfather's businesses, and she, starting her professional life, resist fueling a flame that's still alive. But now that their paths have crossed again, will love be stronger than resentment?",
-      "posterPath": "https://image.tmdb.org/t/p/w500/yzqHt4m1SeY9FbPrfZ0C2Hi9x1s.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/original/7QirCB1o80NEFpQGlQRZerZbQEp.jpg",
-      "runtime": 112,
-      "budget": 0,
-      "revenue": 0
-    },
-    {
-      "id": 1305717,
-      "rank": 4,
-      "title": "Hunting Grounds",
-      "year": 2025,
-      "releaseDate": "2025-05-16",
-      "genre": [
-        "Action",
-        "Thriller"
-      ],
-      "director": "Derek Barnes",
-      "rating": 6.4,
-      "voteCount": 48,
-      "popularity": 214.2,
-      "overview": "Desperate to find refuge for her children, Chloe Marvino runs away from her Mafia tied husband, and finds shelter in a cabin with a recluse drifter named Jake. But as her husband's henchmen draw closer to her, it turns out that Jake is the biggest enemy of them all.",
-      "posterPath": "https://image.tmdb.org/t/p/w500/cgZjpqRQt9sk6XMCwZ3B1NPAaoy.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/original/1leYKN0DPNffpldGnCWnbXaiWoD.jpg",
-      "runtime": 89,
-      "budget": 0,
-      "revenue": 0
-    },
-    {
-      "id": 1511789,
-      "rank": 5,
-      "title": "Captain Hook - The Cursed Tides",
-      "year": 2025,
-      "releaseDate": "2025-07-11",
-      "genre": [
-        "Adventure",
-        "Action",
-        "Horror"
-      ],
-      "director": "Lars Janssen",
-      "rating": 4.8,
-      "voteCount": 32,
-      "popularity": 217,
-      "overview": "In the aftermath of a devastating defeat by his archnemesis Admiral Smee, the notorious Captain James Hook finds refuge in the coastal town of Eldritch Landing, where he forms an unlikely alliance with Silas Blackweather, a local blacksmith seeking retribution for his sister's murder. As they evade Smee's Redcoat Soldiers in the island's dense woodland, ruthless sword fights, ancient curses and conflicting motives will challenge their shared quest for revenge. Together, Hook and Silas navigate uncharted waters to confront the treacherous Admiral Smee, embarking on a journey that will redefine Captain Hook's enduring legacy.",
-      "posterPath": "https://image.tmdb.org/t/p/w500/bcP7FtskwsNp1ikpMQJzDPjofP5.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/original/ygOR390GzOX5Quv0kAAcUNDG7fp.jpg",
-      "runtime": 90,
-      "budget": 0,
-      "revenue": 0
-    },
-    {
       "id": 1311031,
-      "rank": 6,
+      "rank": 9,
       "title": "Demon Slayer: Kimetsu no Yaiba Infinity Castle",
       "year": 2025,
       "releaseDate": "2025-07-18",
@@ -127,8 +192,8 @@ let boxOfficeData = {
       ],
       "director": "Haruo Sotozaki",
       "rating": 7.8,
-      "voteCount": 505,
-      "popularity": 204.9,
+      "voteCount": 518,
+      "popularity": 181,
       "overview": "The Demon Slayer Corps are drawn into the Infinity Castle, where Tanjiro, Nezuko, and the Hashira face terrifying Upper Rank demons in a desperate fight as the final battle against Muzan Kibutsuji begins.",
       "posterPath": "https://image.tmdb.org/t/p/w500/fWVSwgjpT2D78VUh6X8UBd2rorW.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/original/1RgPyOhN4DRs225BGTlHJqCudII.jpg",
@@ -137,93 +202,26 @@ let boxOfficeData = {
       "revenue": 666853957
     },
     {
-      "id": 861451,
-      "rank": 7,
-      "title": "Martin",
-      "year": 2024,
-      "releaseDate": "2024-10-11",
-      "genre": [
-        "Action",
-        "Drama",
-        "Thriller"
-      ],
-      "director": "A. P. Arjun",
-      "rating": 3.8,
-      "voteCount": 16,
-      "popularity": 209,
-      "overview": "Martin revolves around Lt. Brigadier Arjun Saxena, whose journey takes him from Pakistan to India to discover his real identity and fight against black market dealers, who are involved with terrorists to orchestrate massive attacks in the country.",
-      "posterPath": "https://image.tmdb.org/t/p/w500/bYe2ZjUhb4Kje0BpWE6kN34u2hv.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/original/42xAe6kVeTjml9Tww6vRoWa5tay.jpg",
-      "runtime": 147,
-      "budget": 17647000,
-      "revenue": 3247000
-    },
-    {
-      "id": 1280450,
-      "rank": 8,
-      "title": "Stolen Girl",
-      "year": 2025,
-      "releaseDate": "2025-09-04",
-      "genre": [
-        "Thriller",
-        "Action",
-        "Adventure"
-      ],
-      "director": "James Kent",
-      "rating": 6.5,
-      "voteCount": 60,
-      "popularity": 191.7,
-      "overview": "In 1993, Maureen’s six-year-old daughter Amina is snuck out of the country by her ex-husband, Karim. After years of unsuccessful attempts to find her, Maureen intersects with a professional retriever of internationally abducted children who promises to help her find Amina in exchange for her collaboration.",
-      "posterPath": "https://image.tmdb.org/t/p/w500/fZlNXEHZsBp7unqw009MeBbMv87.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/original/qcDDn7WeKBenM4nLlOPXAeJ4hpg.jpg",
-      "runtime": 110,
-      "budget": 26000000,
-      "revenue": 92691
-    },
-    {
-      "id": 1284120,
-      "rank": 9,
-      "title": "The Ugly Stepsister",
-      "year": 2025,
-      "releaseDate": "2025-04-25",
-      "genre": [
-        "Horror",
-        "Comedy",
-        "Fantasy",
-        "Drama"
-      ],
-      "director": "Emilie Blichfeldt",
-      "rating": 7.3,
-      "voteCount": 578,
-      "popularity": 199.9,
-      "overview": "In a fairy-tale kingdom where beauty is a brutal business, Elvira battles to compete with her incredibly beautiful stepsister, and she will go to any length to catch the prince’s eye.",
-      "posterPath": "https://image.tmdb.org/t/p/w500/rayAREIKtSinuov10GvrZHyXfXH.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/original/ev9kxdoJ5IYVprt1OvH2SMWJdU1.jpg",
-      "runtime": 109,
-      "budget": 4250000,
-      "revenue": 4601915
-    },
-    {
-      "id": 1519168,
+      "id": 507244,
       "rank": 10,
-      "title": "The Jester 2",
+      "title": "Afterburn",
       "year": 2025,
-      "releaseDate": "2025-09-15",
+      "releaseDate": "2025-09-22",
       "genre": [
-        "Horror",
-        "Thriller",
-        "Crime"
+        "Science Fiction",
+        "Action",
+        "Comedy"
       ],
-      "director": "Colin Krawchuk",
-      "rating": 6.5,
-      "voteCount": 24,
-      "popularity": 152.1,
-      "overview": "When teen magician Max crosses paths with the sinister Jester on Halloween night, she must outsmart a supernatural killer whose magic is all too real and whose tricks always end up in blood.",
-      "posterPath": "https://image.tmdb.org/t/p/w500/47dsw1jSOV0Be5zmy7CtLhYpqU.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/original/yZtnGzfZER0QU7ZG4r4RaZAaXJH.jpg",
-      "runtime": 87,
-      "budget": 0,
-      "revenue": 146237
+      "director": "J.J. Perry",
+      "rating": 6.9,
+      "voteCount": 110,
+      "popularity": 165.3,
+      "overview": "Set against the backdrop of a postapocalyptic Earth whose Eastern Hemisphere was destroyed by a massive solar flare, leaving what life remains mutated from radiation and fallout. The story revolves around a group of treasure hunters who extract such objects as the Mona Lisa, the Rosetta Stone and the Crown Jewels while facing rival hunters, mutants and pirates.",
+      "posterPath": "https://image.tmdb.org/t/p/w500/xR0IhVBjbNU34b8erhJCgRbjXo3.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/original/kHOfxq7cMTXyLbj0UmdoGhT540O.jpg",
+      "runtime": 105,
+      "budget": 60000000,
+      "revenue": 184758
     }
   ]
 };
