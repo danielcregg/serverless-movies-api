@@ -1,8 +1,8 @@
 // Auto-generated box office data
-// Last updated: 2026-02-09T09:54:44.543Z
+// Last updated: 2026-02-16T09:44:19.110Z
 
 let boxOfficeData = {
-  "lastUpdated": "2026-02-09T09:54:44.543Z",
+  "lastUpdated": "2026-02-16T09:44:19.110Z",
   "region": "Ireland",
   "source": "The Movie Database (TMDB)",
   "movies": [
@@ -18,19 +18,84 @@ let boxOfficeData = {
         "Science Fiction"
       ],
       "director": "Ric Roman Waugh",
-      "rating": 6.6,
-      "voteCount": 359,
-      "popularity": 499.9,
+      "rating": 6.5,
+      "voteCount": 434,
+      "popularity": 352.5,
       "overview": "Having found the safety of the Greenland bunker after the comet Clarke decimated the Earth, the Garrity family must now risk everything to embark on a perilous journey across the wasteland of Europe to find a new home.",
       "posterPath": "https://image.tmdb.org/t/p/w500/z2tqCJLsw6uEJ8nJV8BsQXGa3dr.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/original/tyjXlexbNZQ0ZT1KEJslQtBirqc.jpg",
       "runtime": 98,
       "budget": 90000000,
-      "revenue": 20806332
+      "revenue": 39924680
+    },
+    {
+      "id": 434853,
+      "rank": 2,
+      "title": "Space/Time",
+      "year": 2025,
+      "releaseDate": "2025-05-01",
+      "genre": [
+        "Science Fiction",
+        "Action",
+        "Thriller"
+      ],
+      "director": "Michael O'Halloran",
+      "rating": 5.6,
+      "voteCount": 14,
+      "popularity": 340.4,
+      "overview": "After a fatal test shuts down their project, a disgraced team of scientists enters the criminal underworld to rebuild a forbidden space-bending engine that could rescue humanity or annihilate it entirely.",
+      "posterPath": "https://image.tmdb.org/t/p/w500/uje1ecKMnNpZp0at5TxlvVgVXqI.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/original/w1Z1I9PqTK5UjG6RVAFXLCjp1Sw.jpg",
+      "runtime": 90,
+      "budget": 0,
+      "revenue": 0
+    },
+    {
+      "id": 1315303,
+      "rank": 3,
+      "title": "Primate",
+      "year": 2026,
+      "releaseDate": "2026-01-30",
+      "genre": [
+        "Horror",
+        "Thriller"
+      ],
+      "director": "Johannes Roberts",
+      "rating": 6.6,
+      "voteCount": 289,
+      "popularity": 296.3,
+      "overview": "Lucy, a college student, along with her friends, spend their vacation at her family's home in Hawaii, which includes her pet chimpanzee, Ben. However, when Ben contracts rabies after being bitten by a rabid animal, the group must fight for their lives in order to avoid the now-violent chimp.",
+      "posterPath": "https://image.tmdb.org/t/p/w500/57cyAMc9c8iveudogTRuDOQjujn.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/original/9uakM2woks0JV8HKIc4oatIVS88.jpg",
+      "runtime": 89,
+      "budget": 21000000,
+      "revenue": 39722402
+    },
+    {
+      "id": 1368166,
+      "rank": 4,
+      "title": "The Housemaid",
+      "year": 2025,
+      "releaseDate": "2025-12-26",
+      "genre": [
+        "Drama",
+        "Mystery",
+        "Thriller"
+      ],
+      "director": "Paul Feig",
+      "rating": 7.2,
+      "voteCount": 1107,
+      "popularity": 221.2,
+      "overview": "Trying to escape her past, Millie Calloway accepts a job as a live-in housemaid for the wealthy Nina and Andrew Winchester. But what begins as a dream job quickly unravels into something far more dangerous—a sexy, seductive game of secrets, scandal, and power.",
+      "posterPath": "https://image.tmdb.org/t/p/w500/cWsBscZzwu5brg9YjNkGewRUvJX.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/original/tNONILTe9OJz574KZWaLze4v6RC.jpg",
+      "runtime": 131,
+      "budget": 35000000,
+      "revenue": 334411969
     },
     {
       "id": 1168190,
-      "rank": 2,
+      "rank": 5,
       "title": "The Wrecking Crew",
       "year": 2026,
       "releaseDate": "2026-01-28",
@@ -41,9 +106,9 @@ let boxOfficeData = {
         "Mystery"
       ],
       "director": "Ángel Manuel Soto",
-      "rating": 6.8,
-      "voteCount": 471,
-      "popularity": 418.4,
+      "rating": 6.9,
+      "voteCount": 588,
+      "popularity": 246.5,
       "overview": "Estranged half-brothers Jonny and James reunite after their father's mysterious death. As they search for the truth, buried secrets reveal a conspiracy threatening to tear their family apart.",
       "posterPath": "https://image.tmdb.org/t/p/w500/gbVwHl4YPSq6BcC92TQpe7qUTh6.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/original/cz4vLJrmaV1zJlRYbxqtvLzeLWB.jpg",
@@ -52,29 +117,8 @@ let boxOfficeData = {
       "revenue": 89000000
     },
     {
-      "id": 1368166,
-      "rank": 3,
-      "title": "The Housemaid",
-      "year": 2025,
-      "releaseDate": "2025-12-26",
-      "genre": [
-        "Mystery",
-        "Thriller"
-      ],
-      "director": "Paul Feig",
-      "rating": 7.2,
-      "voteCount": 921,
-      "popularity": 473.8,
-      "overview": "Trying to escape her past, Millie Calloway accepts a job as a live-in housemaid for the wealthy Nina and Andrew Winchester. But what begins as a dream job quickly unravels into something far more dangerous—a sexy, seductive game of secrets, scandal, and power.",
-      "posterPath": "https://image.tmdb.org/t/p/w500/cWsBscZzwu5brg9YjNkGewRUvJX.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/original/tNONILTe9OJz574KZWaLze4v6RC.jpg",
-      "runtime": 131,
-      "budget": 35000000,
-      "revenue": 334411969
-    },
-    {
       "id": 1084242,
-      "rank": 4,
+      "rank": 6,
       "title": "Zootopia 2",
       "year": 2025,
       "releaseDate": "2025-11-28",
@@ -87,40 +131,62 @@ let boxOfficeData = {
       ],
       "director": "Jared Bush",
       "rating": 7.6,
-      "voteCount": 1595,
-      "popularity": 290.4,
+      "voteCount": 1685,
+      "popularity": 224.7,
       "overview": "After cracking the biggest case in Zootopia's history, rookie cops Judy Hopps and Nick Wilde find themselves on the twisting trail of a great mystery when Gary De'Snake arrives and turns the animal metropolis upside down. To crack the case, Judy and Nick must go undercover to unexpected new parts of town, where their growing partnership is tested like never before.",
       "posterPath": "https://image.tmdb.org/t/p/w500/oJ7g2CifqpStmoYQyaLQgEU32qO.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/original/5h2EsPKNDdB3MAtOk9MB9Ycg9Rz.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/original/7nfpkR9XsQ1lBNCXSSHxGV7Dkxe.jpg",
       "runtime": 108,
       "budget": 150000000,
-      "revenue": 1802806721
+      "revenue": 1830000000
     },
     {
-      "id": 1601243,
-      "rank": 5,
-      "title": "Oscar Shaw",
+      "id": 1426964,
+      "rank": 7,
+      "title": "State of Fear",
       "year": 2026,
-      "releaseDate": "2026-01-09",
+      "releaseDate": "2026-02-11",
       "genre": [
         "Action",
+        "Thriller",
         "Crime",
-        "Thriller"
+        "Drama"
       ],
-      "director": "R. Ellis Frazier",
+      "director": "Pedro Morelli",
+      "rating": 4.7,
+      "voteCount": 24,
+      "popularity": 243.1,
+      "overview": "As São Paulo erupts in an unprecedented wave of violence, a lawyer with underworld ties must strike a deal with the police to rescue her kidnapped niece.",
+      "posterPath": "https://image.tmdb.org/t/p/w500/3Eaqedg8MAlnP51GYY8MCSIdTnV.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/original/1Xdsq7U7bvJJd2X7Jg4qNaKVkYO.jpg",
+      "runtime": 103,
+      "budget": 0,
+      "revenue": 0
+    },
+    {
+      "id": 1317672,
+      "rank": 8,
+      "title": "Love Me Love Me",
+      "year": 2026,
+      "releaseDate": "2026-02-12",
+      "genre": [
+        "Romance",
+        "Drama"
+      ],
+      "director": "Roger Kumble",
       "rating": 6.1,
-      "voteCount": 16,
-      "popularity": 258.3,
-      "overview": "After retiring from the police force, a relentless detective haunted by the tragic loss of his closest friend sets out on a perilous quest for vengeance, seeking redemption and fighting to restore justice to the streets he once swore to protect.",
-      "posterPath": "https://image.tmdb.org/t/p/w500/tsE3nySukwrfUjouz8vzvKTcXNC.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/original/6D6M5z4reppUxo2cnBEKI02Csp1.jpg",
-      "runtime": 93,
+      "voteCount": 66,
+      "popularity": 205.2,
+      "overview": "After her brother's death, June moves to Milan for a fresh start, finding comfort in Will, the perfect honor student at her new international school. But when his troubled best friend James-hiding a dangerous life in clandestine MMA fights-sparks a rivalry that quickly turns into irresistible attraction, June must choose between safety and a love that upends everything she thought she wanted.",
+      "posterPath": "https://image.tmdb.org/t/p/w500/4QWAPETLYZosiwXQCTMu1KerXxI.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/original/o0jRpVznKXuLvoXQX9UTKVtGjxK.jpg",
+      "runtime": 99,
       "budget": 0,
       "revenue": 0
     },
     {
       "id": 1419406,
-      "rank": 6,
+      "rank": 9,
       "title": "The Shadow's Edge",
       "year": 2025,
       "releaseDate": "2025-10-03",
@@ -132,8 +198,8 @@ let boxOfficeData = {
       ],
       "director": "Larry Yang",
       "rating": 7.2,
-      "voteCount": 407,
-      "popularity": 262.5,
+      "voteCount": 430,
+      "popularity": 165.7,
       "overview": "Macau Police brings the tracking expert police officer out of retirement to help catch a dangerous group of professional thieves.",
       "posterPath": "https://image.tmdb.org/t/p/w500/e0RU6KpdnrqFxDKlI3NOqN8nHL6.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/original/zXINNssll2zsPGqd7F7Llrw7Uql.jpg",
@@ -142,92 +208,26 @@ let boxOfficeData = {
       "revenue": 174400000
     },
     {
-      "id": 1310568,
-      "rank": 7,
-      "title": "Murder at the Embassy",
+      "id": 1242898,
+      "rank": 10,
+      "title": "Predator: Badlands",
       "year": 2025,
-      "releaseDate": "2025-11-14",
-      "genre": [
-        "Mystery",
-        "Thriller",
-        "Action"
-      ],
-      "director": "Stephen Shimek",
-      "rating": 5.5,
-      "voteCount": 30,
-      "popularity": 196.7,
-      "overview": "1934. Private detective Miranda Green investigates a murder perpetrated in the British Embassy in Cairo, where a top secret document was stolen, risking to jeopardize both Buckingham Palace and the peace of the world. All those present in this closed place are suspected: the American photographer, the English student, the American actress, the Egyptian security guard, the ambassador interpreter, the Egyptian gardener and - why not? — the Ambassador himself. But who would have expected that a small group of Nazis would be behind a plot, risking to jeopardize both Buckingham Palace and the peace of the world?",
-      "posterPath": "https://image.tmdb.org/t/p/w500/3DBmBItPdy0A2ol59jgHhS54Lua.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/original/gLXibzLQ4qegvjdqDC0f8yTij2P.jpg",
-      "runtime": 90,
-      "budget": 0,
-      "revenue": 0
-    },
-    {
-      "id": 1271895,
-      "rank": 8,
-      "title": "96 Minutes",
-      "year": 2025,
-      "releaseDate": "2025-09-05",
+      "releaseDate": "2025-11-05",
       "genre": [
         "Action",
-        "Crime",
-        "Romance"
-      ],
-      "director": "Tzu-Hsuan Hung",
-      "rating": 5.4,
-      "voteCount": 32,
-      "popularity": 160.7,
-      "overview": "Former bomb disposal expert, Song Kang-Ren, and his fiancée, Huang Xin, board a high-speed train that contains a bomb. At the same time, Liu Kai, a well-known physics teacher who was involved in an affair scandal, also boards this same train in order to win back his wife, Ting Juan, who took the prior high-speed rail to return home in frustration…  After all, can the bomb be successfully defused this time? and resolve the crisis?",
-      "posterPath": "https://image.tmdb.org/t/p/w500/gWKZ1iLhukvLoh8XY2N4tMvRQ2M.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/original/lAtuFCx6cYkNBmTMSNnLE0qlCLx.jpg",
-      "runtime": 117,
-      "budget": 0,
-      "revenue": 0
-    },
-    {
-      "id": 1234731,
-      "rank": 9,
-      "title": "Anaconda",
-      "year": 2025,
-      "releaseDate": "2025-12-26",
-      "genre": [
-        "Adventure",
-        "Comedy",
-        "Horror"
-      ],
-      "director": "Tom Gormican",
-      "rating": 5.9,
-      "voteCount": 521,
-      "popularity": 156.6,
-      "overview": "A group of friends facing mid-life crises head to the rainforest with the intention of remaking their favorite movie from their youth, only to find themselves in a fight for their lives against natural disasters, giant snakes and violent criminals.",
-      "posterPath": "https://image.tmdb.org/t/p/w500/qxMv3HwAB3XPuwNLMhVRg795Ktp.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/original/swxhEJsAWms6X1fDZ4HdbvYBSf9.jpg",
-      "runtime": 100,
-      "budget": 45000000,
-      "revenue": 131454208
-    },
-    {
-      "id": 83533,
-      "rank": 10,
-      "title": "Avatar: Fire and Ash",
-      "year": 2025,
-      "releaseDate": "2025-12-19",
-      "genre": [
         "Science Fiction",
-        "Adventure",
-        "Fantasy"
+        "Adventure"
       ],
-      "director": "James Cameron",
-      "rating": 7.3,
-      "voteCount": 1714,
-      "popularity": 164.4,
-      "overview": "In the wake of the devastating war against the RDA and the loss of their eldest son, Jake Sully and Neytiri face a new threat on Pandora: the Ash People, a violent and power-hungry Na'vi tribe led by the ruthless Varang. Jake's family must fight for their survival and the future of Pandora in a conflict that pushes them to their emotional and physical limits.",
-      "posterPath": "https://image.tmdb.org/t/p/w500/bRBeSHfGHwkEpImlhxPmOcUsaeg.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/original/sdZSjtGUTSN8B3al5o0f2WoQfQQ.jpg",
-      "runtime": 198,
-      "budget": 350000000,
-      "revenue": 1439133850
+      "director": "Dan Trachtenberg",
+      "rating": 7.7,
+      "voteCount": 1960,
+      "popularity": 190.6,
+      "overview": "Cast out from his clan, a young Predator finds an unlikely ally in a damaged android and embarks on a treacherous journey in search of the ultimate adversary.",
+      "posterPath": "https://image.tmdb.org/t/p/w500/pHpq9yNUIo6aDoCXEBzjSolywgz.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/original/82lM4GJ9uuNvNDOEpxFy77uv4Ak.jpg",
+      "runtime": 107,
+      "budget": 105000000,
+      "revenue": 184561056
     }
   ]
 };
