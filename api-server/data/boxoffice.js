@@ -1,8 +1,8 @@
 // Auto-generated box office data
-// Last updated: 2026-06-15T14:57:57.930Z
+// Last updated: 2026-06-22T14:28:57.444Z
 
 let boxOfficeData = {
-  "lastUpdated": "2026-06-15T14:57:57.930Z",
+  "lastUpdated": "2026-06-22T14:28:57.444Z",
   "region": "Ireland",
   "source": "The Movie Database (TMDB)",
   "movies": [
@@ -13,59 +13,62 @@ let boxOfficeData = {
       "year": 2026,
       "releaseDate": "2026-05-15",
       "genre": [
-        "Horror"
+        "Horror",
+        "Thriller"
       ],
       "director": "Curry Barker",
       "rating": 7.9,
-      "voteCount": 763,
-      "popularity": 770.3,
+      "voteCount": 919,
+      "popularity": 558.8,
       "overview": "After breaking the mysterious \"One Wish Willow\" to win his crush's heart, a hopeless romantic finds himself getting exactly what he asked for but soon discovers that some desires come at a dark, sinister price.",
       "posterPath": "https://image.tmdb.org/t/p/w500/bRwnj8WEKBCvmfeUNOukJPwB43K.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/original/4k99kV4R1bbbrsnjR205v91Xbin.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/original/5lTZyuBTNOfawsfPT8Q0cIg6qAF.jpg",
       "runtime": 108,
       "budget": 750000,
-      "revenue": 286494000
+      "revenue": 333275000
     },
     {
-      "id": 1057265,
+      "id": 1392469,
       "rank": 2,
-      "title": "Peddi",
+      "title": "Cocktail 2",
       "year": 2026,
-      "releaseDate": "2026-06-03",
+      "releaseDate": "2026-06-19",
       "genre": [
-        "Action",
-        "Drama"
+        "Romance",
+        "Comedy"
       ],
-      "director": "Buchi Babu Sana",
-      "rating": 6.8,
-      "voteCount": 40,
-      "popularity": 597.1,
-      "overview": "In 1980s rural Andhra Pradesh, a spirited villager unites his community through sports to defend their pride against a powerful rival.",
-      "posterPath": "https://image.tmdb.org/t/p/w500/kJAJNNBYlbqAcpTDxBNnaILSMTy.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/original/oPsRr7AfNLw6XaPuMpvkWK0bIUA.jpg",
-      "runtime": 192,
-      "budget": 36500000,
-      "revenue": 0
-    },
-    {
-      "id": 879945,
-      "rank": 3,
-      "title": "The Unknown Man",
-      "year": 2021,
-      "releaseDate": "2021-10-16",
-      "genre": [
-        "Drama"
-      ],
-      "director": "Anthony Schatteman",
-      "rating": 7.8,
-      "voteCount": 9,
-      "popularity": 697.8,
-      "overview": "Louis, a Flemish writer, decides to isolate himself at the Côte d’Azur, hoping this place will bring him inspiration.",
-      "posterPath": "https://image.tmdb.org/t/p/w500/4TpBhdaSl5ALHbgeaYOLF8Q3haz.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/original/7uXzE0ZBkbAeKylOz7cUQF4Yw75.jpg",
-      "runtime": 23,
+      "director": "Homi Adajania",
+      "rating": 5,
+      "voteCount": 4,
+      "popularity": 495.6,
+      "overview": "After a decade together, Diya and Kunal's relationship is shaken when Ally, an old friend, re-enters their lives. What begins as a plan between two women spirals into chaos, triggering hilarious, emotional rollercoaster none of them saw coming.",
+      "posterPath": "https://image.tmdb.org/t/p/w500/sJB5guRMyS6jLo0cLsY8cYBAjzQ.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/original/vwvMQxD3MHHk2cQCuSyEdYktjUL.jpg",
+      "runtime": 149,
       "budget": 0,
       "revenue": 0
+    },
+    {
+      "id": 931285,
+      "rank": 3,
+      "title": "Mortal Kombat II",
+      "year": 2026,
+      "releaseDate": "2026-05-07",
+      "genre": [
+        "Action",
+        "Fantasy",
+        "Adventure"
+      ],
+      "director": "Simon McQuoid",
+      "rating": 8,
+      "voteCount": 1587,
+      "popularity": 452.3,
+      "overview": "The fan favorite champions—now joined by Johnny Cage himself—are pitted against one another in the ultimate, no-holds barred, gory battle to defeat the dark rule of Shao Kahn that threatens the very existence of the Earthrealm and its defenders.",
+      "posterPath": "https://image.tmdb.org/t/p/w500/hwRdDFIhaEmpRgoki805YvyyjZf.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/original/laR2dpcNpbv83jdlRUNAYPPjH90.jpg",
+      "runtime": 116,
+      "budget": 80000000,
+      "revenue": 129079103
     },
     {
       "id": 936075,
@@ -78,62 +81,83 @@ let boxOfficeData = {
         "Drama"
       ],
       "director": "Antoine Fuqua",
-      "rating": 8.6,
-      "voteCount": 2356,
-      "popularity": 611.2,
+      "rating": 8.7,
+      "voteCount": 2849,
+      "popularity": 418,
       "overview": "The story of Michael Jackson, one of the most influential artists the world has ever known, and his life beyond the music. His journey from the discovery of his extraordinary talent as the lead of the Jackson Five, to the visionary artist whose creative ambition fueled a relentless pursuit to become the biggest entertainer in the world, highlighting both his life off-stage and some of the most iconic performances from his early solo career.",
-      "posterPath": "https://image.tmdb.org/t/p/w500/zm0KAbOjlt9eR5y7vDiL2dEOwMl.jpg",
+      "posterPath": "https://image.tmdb.org/t/p/w500/zZtagf8mE4mdUqpWskVn23HaoiG.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/original/ufSwlnECLoUbBjPrFqEQcWBzHwc.jpg",
       "runtime": 128,
       "budget": 250000000,
-      "revenue": 932200000
+      "revenue": 959632197
     },
     {
-      "id": 1308553,
+      "id": 28322,
       "rank": 5,
-      "title": "Hai Jawani Toh Ishq Hona Hai",
-      "year": 2026,
-      "releaseDate": "2026-06-04",
+      "title": "Madness",
+      "year": 1980,
+      "releaseDate": "1980-03-20",
       "genre": [
-        "Romance",
-        "Comedy"
+        "Thriller",
+        "Action",
+        "Crime"
       ],
-      "director": "David Dhawan",
-      "rating": 5.2,
-      "voteCount": 16,
-      "popularity": 483.2,
-      "overview": "When Jass leaves his marriage over conflicting priorities, a new romance abroad is upended by shocking revelations, forcing him to confront love, loyalty, and the true meaning of commitment.",
-      "posterPath": "https://image.tmdb.org/t/p/w500/vmlJvz6qVzYgei2V74GvnmcuQfW.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/original/l5QgEvlfK6eHPM4YPEk7AArXmh8.jpg",
-      "runtime": 136,
+      "director": "Fernando Di Leo",
+      "rating": 5,
+      "voteCount": 32,
+      "popularity": 398.4,
+      "overview": "An escaped convicted murderer invades the cottage of a man, his wife and the wife's sister, whereupon he proceeds to torment this already dysfunctional trio with rape and violence.",
+      "posterPath": "https://image.tmdb.org/t/p/w500/gV0J0Fqw2mYMtQbzb0ruxv9MAeZ.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/original/7TJjD2X9GTEqyLVIJKLS85J2V47.jpg",
+      "runtime": 89,
       "budget": 0,
       "revenue": 0
     },
     {
-      "id": 931285,
+      "id": 1239134,
       "rank": 6,
-      "title": "Mortal Kombat II",
+      "title": "Bhooth Bangla",
       "year": 2026,
-      "releaseDate": "2026-05-07",
+      "releaseDate": "2026-04-16",
       "genre": [
-        "Action",
-        "Fantasy",
-        "Adventure"
+        "Horror",
+        "Comedy"
       ],
-      "director": "Simon McQuoid",
-      "rating": 8,
-      "voteCount": 1313,
-      "popularity": 607.2,
-      "overview": "The fan favorite champions—now joined by Johnny Cage himself—are pitted against one another in the ultimate, no-holds barred, gory battle to defeat the dark rule of Shao Kahn that threatens the very existence of the Earthrealm and its defenders.",
-      "posterPath": "https://image.tmdb.org/t/p/w500/hwRdDFIhaEmpRgoki805YvyyjZf.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/original/laR2dpcNpbv83jdlRUNAYPPjH90.jpg",
-      "runtime": 116,
-      "budget": 80000000,
-      "revenue": 128751000
+      "director": "Priyadarshan",
+      "rating": 5.4,
+      "voteCount": 31,
+      "popularity": 378.9,
+      "overview": "A man inherits a palace in rural Mangalpur and plans his sister's wedding there, but strange supernatural events and panicked locals force him to investigate the property's mysterious past.",
+      "posterPath": "https://image.tmdb.org/t/p/w500/ArIS4vwUxdhm3j7tsTHmffdfU8W.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/original/A2tzVTVtnTvpji96IZmleN78KKv.jpg",
+      "runtime": 163,
+      "budget": 14000000,
+      "revenue": 20000000
+    },
+    {
+      "id": 1226293,
+      "rank": 7,
+      "title": "Salitan",
+      "year": 2024,
+      "releaseDate": "2024-02-16",
+      "genre": [
+        "Drama",
+        "Romance"
+      ],
+      "director": "Bobby Bonifacio",
+      "rating": 4.4,
+      "voteCount": 10,
+      "popularity": 278.7,
+      "overview": "A suspicious wife follows her husband in Bali. She meets a dashing man who captures her heart. She soon wants her husband to really have an affair to alleviate the guilt she is feeling.",
+      "posterPath": "https://image.tmdb.org/t/p/w500/rMgG7cWuq9O6zhhLs2CbqIKVA8V.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/original/emK2hOB6ACiExT0lNLog9lAmMFL.jpg",
+      "runtime": 105,
+      "budget": 0,
+      "revenue": 0
     },
     {
       "id": 1367220,
-      "rank": 7,
+      "rank": 8,
       "title": "Karuppu",
       "year": 2026,
       "releaseDate": "2026-05-14",
@@ -142,83 +166,58 @@ let boxOfficeData = {
         "Fantasy"
       ],
       "director": "RJ Balaji",
-      "rating": 7.2,
-      "voteCount": 16,
-      "popularity": 467.9,
+      "rating": 6.7,
+      "voteCount": 18,
+      "popularity": 271,
       "overview": "In a world where justice falters, guardian deity Vettai Karuppu takes the guise of a lawyer to battle a corrupt legal system preying on the powerless.",
-      "posterPath": "https://image.tmdb.org/t/p/w500/4KZXlZ5tTT6ghbW77gS4hSLkCd7.jpg",
+      "posterPath": "https://image.tmdb.org/t/p/w500/ky3KDMdvaeApRVL03kpfYHXzXqd.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/original/1eAuwNBy34kkM3xkl202z4f1NiI.jpg",
-      "runtime": 151,
+      "runtime": 152,
       "budget": 16000000,
-      "revenue": 36000000
+      "revenue": 3345079
     },
     {
-      "id": 1275779,
-      "rank": 8,
-      "title": "Disclosure Day",
-      "year": 2026,
-      "releaseDate": "2026-06-10",
-      "genre": [
-        "Action",
-        "Science Fiction",
-        "Thriller"
-      ],
-      "director": "Steven Spielberg",
-      "rating": 6.9,
-      "voteCount": 328,
-      "popularity": 371.3,
-      "overview": "If you found out we weren’t alone, if someone showed you, proved it to you, would that frighten you?",
-      "posterPath": "https://image.tmdb.org/t/p/w500/3o5YPjDGDTcTDL5ftDA9NwN9dLd.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/original/s6ly8laenkHWlIBRkLSfIuEMLC6.jpg",
-      "runtime": 145,
-      "budget": 115000000,
-      "revenue": 92900000
-    },
-    {
-      "id": 1226863,
+      "id": 1084244,
       "rank": 9,
-      "title": "The Super Mario Galaxy Movie",
+      "title": "Toy Story 5",
       "year": 2026,
-      "releaseDate": "2026-04-03",
+      "releaseDate": "2026-06-19",
       "genre": [
+        "Animation",
         "Family",
         "Comedy",
-        "Adventure",
-        "Fantasy",
-        "Animation"
+        "Adventure"
       ],
-      "director": "Michael Jelenic",
-      "rating": 8.2,
-      "voteCount": 2592,
-      "popularity": 334.6,
-      "overview": "Having thwarted Bowser's previous plot to marry Princess Peach, Mario and Luigi now face a fresh threat in Bowser Jr., who is determined to liberate his father from captivity and restore the family legacy. Alongside companions new and old, the brothers travel across the stars to stop the young heir's crusade.",
-      "posterPath": "https://image.tmdb.org/t/p/w500/eJGWx219ZcEMVQJhAgMiqo8tYY.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/original/9Z2uDYXqJrlmePznQQJhL6d92Rq.jpg",
-      "runtime": 98,
-      "budget": 110000000,
-      "revenue": 1000843925
+      "director": "Andrew Stanton",
+      "rating": 7.5,
+      "voteCount": 192,
+      "popularity": 335.3,
+      "overview": "When Bonnie receives a Lilypad tablet as a gift and becomes obsessed, Buzz, Woody, Jessie and the rest of the gang's jobs become exponentially harder when they have to go head to head with the all-new threat to playtime.",
+      "posterPath": "https://image.tmdb.org/t/p/w500/a6H2U7pjibMia41TwyFVd1PVQw3.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/original/4D1pdB27uph7J8HQzNf8QvvH9bn.jpg",
+      "runtime": 102,
+      "budget": 275000000,
+      "revenue": 312000000
     },
     {
-      "id": 1228710,
+      "id": 1523145,
       "rank": 10,
-      "title": "The Mandalorian and Grogu",
+      "title": "Your Heart Will Be Broken",
       "year": 2026,
-      "releaseDate": "2026-05-22",
+      "releaseDate": "2026-03-26",
       "genre": [
-        "Action",
-        "Adventure",
-        "Science Fiction"
+        "Romance"
       ],
-      "director": "Jon Favreau",
-      "rating": 6.8,
-      "voteCount": 468,
-      "popularity": 315.2,
-      "overview": "The evil Empire has fallen, and Imperial warlords remain scattered throughout the galaxy. As the fledgling New Republic works to protect everything the Rebellion fought for, they have enlisted the help of legendary Mandalorian bounty hunter Din Djarin and his young apprentice Grogu.",
-      "posterPath": "https://image.tmdb.org/t/p/w500/5Vi8dSauVwH1HOsiZceDMbRr1Ca.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/original/6zg7A9ICOthNR2TSXlT51KvXrsA.jpg",
-      "runtime": 132,
-      "budget": 165000000,
-      "revenue": 315100000
+      "director": "Mikhail Vaynberg",
+      "rating": 7,
+      "voteCount": 98,
+      "popularity": 299.4,
+      "overview": "High school student Polina is saved from bullying at her new school and makes a deal with the main bully Bars: he must pretend to be her boyfriend and protect her, and she must do everything he says. During this game, the couple develops real feelings, but her family and classmates have reasons to separate the lovers.",
+      "posterPath": "https://image.tmdb.org/t/p/w500/7wIBfBl2gejt6xHxNSK0reVIm7E.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/original/1x9e0qWonw634NhIsRdvnneeqvN.jpg",
+      "runtime": 134,
+      "budget": 3716000,
+      "revenue": 7578000
     }
   ]
 };
