@@ -1,54 +1,52 @@
 // Auto-generated box office data
-// Last updated: 2026-06-29T12:59:02.216Z
+// Last updated: 2026-07-06T12:38:36.598Z
 
 let boxOfficeData = {
-  "lastUpdated": "2026-06-29T12:59:02.216Z",
+  "lastUpdated": "2026-07-06T12:38:36.598Z",
   "region": "Ireland",
   "source": "The Movie Database (TMDB)",
   "movies": [
     {
-      "id": 1169516,
+      "id": 1339713,
       "rank": 1,
-      "title": "Welcome to the Jungle",
+      "title": "Obsession",
       "year": 2026,
-      "releaseDate": "2026-06-26",
+      "releaseDate": "2026-05-15",
       "genre": [
-        "Action",
-        "Comedy",
-        "Adventure",
-        "Crime"
+        "Horror",
+        "Thriller"
       ],
-      "director": "Ahmed Khan",
-      "rating": 5.7,
-      "voteCount": 10,
-      "popularity": 597.1,
-      "overview": "A group of quirky characters gets stuck in a dangerous jungle during a chaotic mission. Filled with confusion, criminals, and hilarious situations, they must work together to survive and find their way out.",
-      "posterPath": "https://image.tmdb.org/t/p/w500/1JlfUuvvX5xLP2LIDah4JhWUtTx.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/original/96chPcURxg5thGyLqxO6otyxHFR.jpg",
-      "runtime": 170,
-      "budget": 0,
-      "revenue": 0
+      "director": "Curry Barker",
+      "rating": 8.3,
+      "voteCount": 2106,
+      "popularity": 822.6,
+      "overview": "After breaking the mysterious \"One Wish Willow\" to win his crush's heart, a hopeless romantic finds himself getting exactly what he asked for but soon discovers that some desires come at a dark, sinister price.",
+      "posterPath": "https://image.tmdb.org/t/p/w500/bRwnj8WEKBCvmfeUNOukJPwB43K.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/original/diOZbaDnB2CIilwd0527AB1qMvW.jpg",
+      "runtime": 109,
+      "budget": 750000,
+      "revenue": 403090000
     },
     {
-      "id": 1392469,
+      "id": 1275779,
       "rank": 2,
-      "title": "Cocktail 2",
+      "title": "Disclosure Day",
       "year": 2026,
-      "releaseDate": "2026-06-19",
+      "releaseDate": "2026-06-10",
       "genre": [
-        "Romance",
-        "Comedy"
+        "Science Fiction",
+        "Thriller"
       ],
-      "director": "Homi Adajania",
-      "rating": 5.8,
-      "voteCount": 18,
-      "popularity": 325.4,
-      "overview": "After a decade together, Diya and Kunal's relationship is shaken when Ally, an old friend, re-enters their lives. What begins as a plan between two women spirals into chaos, triggering hilarious, emotional rollercoaster none of them saw coming.",
-      "posterPath": "https://image.tmdb.org/t/p/w500/oIQmtByV1LtEQSwM4EpdLTyoSlM.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/original/6tROOVmV5vRymO2g52aR8kWlfoT.jpg",
-      "runtime": 149,
-      "budget": 0,
-      "revenue": 0
+      "director": "Steven Spielberg",
+      "rating": 6.7,
+      "voteCount": 801,
+      "popularity": 644.6,
+      "overview": "A cybersecurity expert becomes a whistleblower after uncovering secrets about aliens, putting him on the run from a corporation. Meanwhile, a meteorologist experiencing strange phenomena joins forces with him to prove there's life beyond our understanding.",
+      "posterPath": "https://image.tmdb.org/t/p/w500/7RYO0KTXIJ0rS0LqnCQLxeNR3P3.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/original/s6ly8laenkHWlIBRkLSfIuEMLC6.jpg",
+      "runtime": 146,
+      "budget": 115000000,
+      "revenue": 216600000
     },
     {
       "id": 1084244,
@@ -63,61 +61,19 @@ let boxOfficeData = {
         "Adventure"
       ],
       "director": "Andrew Stanton",
-      "rating": 7.5,
-      "voteCount": 352,
-      "popularity": 561.1,
+      "rating": 7.4,
+      "voteCount": 480,
+      "popularity": 622.1,
       "overview": "When Bonnie receives a Lilypad tablet as a gift and becomes obsessed, Buzz, Woody, Jessie and the rest of the gang's jobs become exponentially harder when they have to go head to head with the all-new threat to playtime.",
-      "posterPath": "https://image.tmdb.org/t/p/w500/pxG26JdyuiDvJbSoucknaFiLeZD.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/original/qjTqY5coNiz6sVtPng40IzltsoN.jpg",
+      "posterPath": "https://image.tmdb.org/t/p/w500/sfQtVlIHljToOwYjhe21KPGzZWK.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/original/4D1pdB27uph7J8HQzNf8QvvH9bn.jpg",
       "runtime": 102,
-      "budget": 250000000,
-      "revenue": 585000000
-    },
-    {
-      "id": 1339713,
-      "rank": 4,
-      "title": "Obsession",
-      "year": 2026,
-      "releaseDate": "2026-05-15",
-      "genre": [
-        "Horror",
-        "Thriller"
-      ],
-      "director": "Curry Barker",
-      "rating": 7.9,
-      "voteCount": 1024,
-      "popularity": 421.3,
-      "overview": "After breaking the mysterious \"One Wish Willow\" to win his crush's heart, a hopeless romantic finds himself getting exactly what he asked for but soon discovers that some desires come at a dark, sinister price.",
-      "posterPath": "https://image.tmdb.org/t/p/w500/bRwnj8WEKBCvmfeUNOukJPwB43K.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/original/5lTZyuBTNOfawsfPT8Q0cIg6qAF.jpg",
-      "runtime": 108,
-      "budget": 750000,
-      "revenue": 370109085
-    },
-    {
-      "id": 1275779,
-      "rank": 5,
-      "title": "Disclosure Day",
-      "year": 2026,
-      "releaseDate": "2026-06-10",
-      "genre": [
-        "Science Fiction",
-        "Thriller"
-      ],
-      "director": "Steven Spielberg",
-      "rating": 6.7,
-      "voteCount": 711,
-      "popularity": 564.2,
-      "overview": "A cybersecurity expert becomes a whistleblower after uncovering secrets about aliens, putting him on the run from a corporation. Meanwhile, a meteorologist experiencing strange phenomena joins forces with him to prove there's life beyond our understanding.",
-      "posterPath": "https://image.tmdb.org/t/p/w500/AnJ8IQJI23hNpYXVNaythu061Ru.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/original/s6ly8laenkHWlIBRkLSfIuEMLC6.jpg",
-      "runtime": 145,
-      "budget": 115000000,
-      "revenue": 193700000
+      "budget": 275000000,
+      "revenue": 764400000
     },
     {
       "id": 1083381,
-      "rank": 6,
+      "rank": 4,
       "title": "Backrooms",
       "year": 2026,
       "releaseDate": "2026-05-29",
@@ -127,19 +83,103 @@ let boxOfficeData = {
         "Science Fiction"
       ],
       "director": "Kane Parsons",
-      "rating": 6.9,
-      "voteCount": 768,
-      "popularity": 372.9,
+      "rating": 6.8,
+      "voteCount": 895,
+      "popularity": 569.6,
       "overview": "A strange doorway appears in the basement of a furniture showroom.",
       "posterPath": "https://image.tmdb.org/t/p/w500/rhGx6E3qRNMgj3i5su2oukNHwIQ.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/original/oUozq2XHWifwAVOoS1qHU0qfXqM.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/original/mCpwRayjXMFzKHbjbzc5JRKfq1O.jpg",
       "runtime": 111,
       "budget": 10000000,
-      "revenue": 330098049
+      "revenue": 349792472
+    },
+    {
+      "id": 1273221,
+      "rank": 5,
+      "title": "Scary Movie",
+      "year": 2026,
+      "releaseDate": "2026-06-05",
+      "genre": [
+        "Comedy"
+      ],
+      "director": "Michael Tiddes",
+      "rating": 5.4,
+      "voteCount": 420,
+      "popularity": 593.8,
+      "overview": "Twenty-six years after outrunning a suspiciously familiar masked killer, the Core Four are back in the killer's crosshairs and no horror movie IP is safe.",
+      "posterPath": "https://image.tmdb.org/t/p/w500/1KlYdWoOrbL5ux357rW9LC155qw.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/original/xWBiXclrRmTggQHMRsIn84YHavs.jpg",
+      "runtime": 96,
+      "budget": 30000000,
+      "revenue": 217763046
+    },
+    {
+      "id": 1314481,
+      "rank": 6,
+      "title": "The Devil Wears Prada 2",
+      "year": 2026,
+      "releaseDate": "2026-05-01",
+      "genre": [
+        "Comedy",
+        "Drama"
+      ],
+      "director": "David Frankel",
+      "rating": 7,
+      "voteCount": 1242,
+      "popularity": 408.3,
+      "overview": "Andy Sachs returns to Runway as Miranda Priestly navigates a new media landscape and Runway's position within. The duo reconnect with former assistant Emily Charlton, now the head of a luxury brand that possesses funding which could ensure Runway's survival.",
+      "posterPath": "https://image.tmdb.org/t/p/w500/fCAURTUx3YfsJ8k9I0UamjSILiR.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/original/Af907x5h9W1wVis8XrSd7ynTWuy.jpg",
+      "runtime": 119,
+      "budget": 100000000,
+      "revenue": 678081840
+    },
+    {
+      "id": 1413976,
+      "rank": 7,
+      "title": "Citizen Vigilante",
+      "year": 2026,
+      "releaseDate": "2026-06-19",
+      "genre": [
+        "Thriller",
+        "Action",
+        "Crime"
+      ],
+      "director": "Uwe Boll",
+      "rating": 6.6,
+      "voteCount": 187,
+      "popularity": 291.1,
+      "overview": "A man takes justice into his own hands, hunting down criminals. His vigilante crusade makes him a social media star but puts him at odds with the local police chief.",
+      "posterPath": "https://image.tmdb.org/t/p/w500/6LmJD3Wohe0g4U62wgi7RyJqfE4.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/original/qJ2KSHJhlFvASBMLbGuP7OFMaFg.jpg",
+      "runtime": 89,
+      "budget": 0,
+      "revenue": 0
+    },
+    {
+      "id": 1127384,
+      "rank": 8,
+      "title": "Deep Water",
+      "year": 2026,
+      "releaseDate": "2026-07-20",
+      "genre": [
+        "Horror",
+        "Thriller"
+      ],
+      "director": "Renny Harlin",
+      "rating": 7,
+      "voteCount": 129,
+      "popularity": 285.4,
+      "overview": "A group of international passengers on a flight from Los Angeles to Shanghai is forced to make an emergency landing in shark-infested waters. The terrified group is forced to work together and overcome their differences if they hope to escape their sinking plane and the frenzy of sharks drawn to the wreckage.",
+      "posterPath": "https://image.tmdb.org/t/p/w500/kjcuS7xaRyqRjVaVcH4t0qHshuX.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/original/iYjlQzWbcFIjWe2WifbEPb4kErp.jpg",
+      "runtime": 107,
+      "budget": 0,
+      "revenue": 2286163
     },
     {
       "id": 936075,
-      "rank": 7,
+      "rank": 9,
       "title": "Michael",
       "year": 2026,
       "releaseDate": "2026-04-22",
@@ -149,79 +189,38 @@ let boxOfficeData = {
       ],
       "director": "Antoine Fuqua",
       "rating": 8.7,
-      "voteCount": 3128,
-      "popularity": 342.2,
+      "voteCount": 3309,
+      "popularity": 222.6,
       "overview": "The story of Michael Jackson, one of the most influential artists the world has ever known, and his life beyond the music. His journey from the discovery of his extraordinary talent as the lead of the Jackson Five, to the visionary artist whose creative ambition fueled a relentless pursuit to become the biggest entertainer in the world, highlighting both his life off-stage and some of the most iconic performances from his early solo career.",
       "posterPath": "https://image.tmdb.org/t/p/w500/zm0KAbOjlt9eR5y7vDiL2dEOwMl.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/original/ufSwlnECLoUbBjPrFqEQcWBzHwc.jpg",
       "runtime": 128,
       "budget": 250000000,
-      "revenue": 977500000
+      "revenue": 977636197
     },
     {
-      "id": 1081003,
-      "rank": 8,
-      "title": "Supergirl",
-      "year": 2026,
-      "releaseDate": "2026-06-25",
-      "genre": [
-        "Action",
-        "Adventure",
-        "Science Fiction"
-      ],
-      "director": "Craig Gillespie",
-      "rating": 6.2,
-      "voteCount": 209,
-      "popularity": 314.6,
-      "overview": "When an unexpected and ruthless adversary strikes too close to home, Kara Zor-El, aka Supergirl, reluctantly joins forces with an unlikely companion on an epic, interstellar journey of vengeance and justice.",
-      "posterPath": "https://image.tmdb.org/t/p/w500/niSvU02l2BONH9ivubV6K1a5QiK.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/original/hBwCiqcaXtxmhv5xZ0H6Uhd2L1E.jpg",
-      "runtime": 108,
-      "budget": 175000000,
-      "revenue": 68000000
-    },
-    {
-      "id": 1127384,
-      "rank": 9,
-      "title": "Deep Water",
-      "year": 2026,
-      "releaseDate": "2026-07-20",
-      "genre": [
-        "Thriller",
-        "Horror"
-      ],
-      "director": "Renny Harlin",
-      "rating": 6.1,
-      "voteCount": 67,
-      "popularity": 352.3,
-      "overview": "A group of international passengers on a flight from Los Angeles to Shanghai is forced to make an emergency landing in shark-infested waters. The terrified group is forced to work together and overcome their differences if they hope to escape their sinking plane and the frenzy of sharks drawn to the wreckage.",
-      "posterPath": "https://image.tmdb.org/t/p/w500/kjcuS7xaRyqRjVaVcH4t0qHshuX.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/original/iYjlQzWbcFIjWe2WifbEPb4kErp.jpg",
-      "runtime": 107,
-      "budget": 0,
-      "revenue": 2286163
-    },
-    {
-      "id": 1301421,
+      "id": 1315772,
       "rank": 10,
-      "title": "The Sheep Detectives",
+      "title": "Minions & Monsters",
       "year": 2026,
-      "releaseDate": "2026-05-08",
+      "releaseDate": "2026-07-01",
       "genre": [
+        "Adventure",
+        "Animation",
         "Comedy",
-        "Mystery",
-        "Family"
+        "Family",
+        "Fantasy"
       ],
-      "director": "Kyle Balda",
-      "rating": 7.8,
-      "voteCount": 492,
-      "popularity": 309.3,
-      "overview": "George Hardy is a shepherd who reads detective novels to his beloved sheep every night, assuming they can't possibly understand. But when a mysterious incident disrupts life on the farm, the sheep realize they must become the detectives. As they follow the clues and investigate human suspects, they prove that even sheep can be brilliant crime-solvers.",
-      "posterPath": "https://image.tmdb.org/t/p/w500/iKy5460GdsoknM8ppmGlJbKxAKa.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/original/t6O6XWelu27BD0OmIDCCufZZT6d.jpg",
-      "runtime": 109,
-      "budget": 75000000,
-      "revenue": 115953209
+      "director": "Pierre Coffin",
+      "rating": 6.4,
+      "voteCount": 109,
+      "popularity": 207.1,
+      "overview": "This is the rambunctious, ridiculous and totally true story of how the Minions conquered Hollywood, became movie stars, lost everything, unleashed monsters onto the world and then banded together to try and save the planet from the mayhem they had just created.",
+      "posterPath": "https://image.tmdb.org/t/p/w500/nz7i42yhLIJ4ve9JKgM6NthoLHO.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/original/xMoXsOgF0hBP7iVj7ZPIrFtTeL3.jpg",
+      "runtime": 90,
+      "budget": 85000000,
+      "revenue": 164572225
     }
   ]
 };
