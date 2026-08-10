@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-03T12:13:41.702Z",
+  "lastUpdated": "2026-08-10T10:09:31.355Z",
   "region": "Ireland",
   "source": "The Movie Database (TMDB)",
   "movies": [
@@ -15,15 +15,15 @@
         "Adventure"
       ],
       "director": "Destin Daniel Cretton",
-      "rating": 8,
-      "voteCount": 731,
-      "popularity": 1946,
+      "rating": 7.9,
+      "voteCount": 1435,
+      "popularity": 1401.5,
       "overview": "Fighting crime full-time as Spider-Man in a world that doesn't remember him—and the pressure of seeing his old friends move on without him—sparks a change in Peter Parker he may not have the power to control. But that transformation might also be the only thing that can stop a shocking new threat to the city and those he loves - a powerful villain no one can even see.",
       "posterPath": "https://image.tmdb.org/t/p/w500/iPOn6DinuVyLY17YM9mKuPofV08.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/original/qeQJx07rK2xm8SD2sJxFKhE7gs0.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/original/pq1Mhdt9LbkQM5TOjuVZpcczbf.jpg",
       "runtime": 145,
       "budget": 225000000,
-      "revenue": 927000000
+      "revenue": 1665089000
     },
     {
       "id": 1368337,
@@ -37,105 +37,19 @@
         "Fantasy"
       ],
       "director": "Christopher Nolan",
-      "rating": 7.9,
-      "voteCount": 2101,
-      "popularity": 1207.2,
+      "rating": 8,
+      "voteCount": 2526,
+      "popularity": 884.6,
       "overview": "Odysseus, the legendary King of Ithaca, embarks on a long and perilous journey home following the Trojan War. Throughout his voyage, he is forced to confront the whims of gods, mythological monsters, and trials that stretch both his cunning and his humanity to the breaking point.",
       "posterPath": "https://image.tmdb.org/t/p/w500/5rhTDKUhPYvpdQIijFIs5VoWsON.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/original/sSIzzVhhLfgLKVBcAUv0X6cLYz9.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/original/RMXG8myu1aGlNUsRjtxzmpdMK0.jpg",
       "runtime": 173,
       "budget": 250000000,
-      "revenue": 911397415
-    },
-    {
-      "id": 1081003,
-      "rank": 3,
-      "title": "Supergirl",
-      "year": 2026,
-      "releaseDate": "2026-06-25",
-      "genre": [
-        "Action",
-        "Adventure",
-        "Science Fiction"
-      ],
-      "director": "Craig Gillespie",
-      "rating": 6.8,
-      "voteCount": 1439,
-      "popularity": 583.8,
-      "overview": "When an unexpected and ruthless adversary strikes too close to home, Kara Zor-El, aka Supergirl, reluctantly joins forces with an unlikely companion on an epic, interstellar journey of vengeance and justice.",
-      "posterPath": "https://image.tmdb.org/t/p/w500/1QCWdqzTfh2x9UylVpspIU6QTuM.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/original/4X2YSe8PaYbsBqX3TDmmIU4vOju.jpg",
-      "runtime": 108,
-      "budget": 175000000,
-      "revenue": 124712685
-    },
-    {
-      "id": 454639,
-      "rank": 4,
-      "title": "Masters of the Universe",
-      "year": 2026,
-      "releaseDate": "2026-06-03",
-      "genre": [
-        "Action",
-        "Fantasy",
-        "Science Fiction"
-      ],
-      "director": "Travis Knight",
-      "rating": 7.3,
-      "voteCount": 1507,
-      "popularity": 431.7,
-      "overview": "After being separated for 15 years, the Sword of Power leads Prince Adam back to Eternia, where he discovers his home shattered under the fiendish rule of Skeletor. To save his family and his world, Adam must join forces with his closest allies, Teela and Duncan/Man-At-Arms, and embrace his true destiny as He-Man — the most powerful man in the universe.",
-      "posterPath": "https://image.tmdb.org/t/p/w500/oRuyGUHdoaQxWP3SDfafGkStxTC.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/original/eQySd26OW7UmCuaeBOL7qy6foMn.jpg",
-      "runtime": 141,
-      "budget": 200000000,
-      "revenue": 113749618
-    },
-    {
-      "id": 1275779,
-      "rank": 5,
-      "title": "Disclosure Day",
-      "year": 2026,
-      "releaseDate": "2026-06-10",
-      "genre": [
-        "Science Fiction",
-        "Thriller"
-      ],
-      "director": "Steven Spielberg",
-      "rating": 7.4,
-      "voteCount": 2257,
-      "popularity": 423,
-      "overview": "A cybersecurity expert becomes a whistleblower after uncovering secrets about aliens, putting him on the run from a corporation. Meanwhile, a meteorologist experiencing strange phenomena joins forces with him to prove there's life beyond our understanding.",
-      "posterPath": "https://image.tmdb.org/t/p/w500/AnJ8IQJI23hNpYXVNaythu061Ru.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/original/flxau5Iu7bChQHsESqvGZ3FQRaI.jpg",
-      "runtime": 146,
-      "budget": 115000000,
-      "revenue": 239022890
-    },
-    {
-      "id": 1339713,
-      "rank": 6,
-      "title": "Obsession",
-      "year": 2026,
-      "releaseDate": "2026-05-15",
-      "genre": [
-        "Horror",
-        "Thriller"
-      ],
-      "director": "Curry Barker",
-      "rating": 8.3,
-      "voteCount": 4127,
-      "popularity": 386.2,
-      "overview": "After breaking the mysterious \"One Wish Willow\" to win his crush's heart, a hopeless romantic finds himself getting exactly what he asked for but soon discovers that some desires come at a dark, sinister price.",
-      "posterPath": "https://image.tmdb.org/t/p/w500/bRwnj8WEKBCvmfeUNOukJPwB43K.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/original/5lTZyuBTNOfawsfPT8Q0cIg6qAF.jpg",
-      "runtime": 109,
-      "budget": 750000,
-      "revenue": 474780890
+      "revenue": 1104804890
     },
     {
       "id": 634649,
-      "rank": 7,
+      "rank": 3,
       "title": "Spider-Man: No Way Home",
       "year": 2021,
       "releaseDate": "2021-12-15",
@@ -146,37 +60,123 @@
       ],
       "director": "Jon Watts",
       "rating": 7.9,
-      "voteCount": 22427,
-      "popularity": 438.5,
+      "voteCount": 22571,
+      "popularity": 672.6,
       "overview": "Peter Parker is unmasked and no longer able to separate his normal life from the high-stakes of being a super-hero. When he asks for help from Doctor Strange the stakes become even more dangerous, forcing him to discover what it truly means to be Spider-Man.",
       "posterPath": "https://image.tmdb.org/t/p/w500/1g0dhYtq4irTY1GPXvft6k4YLjm.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/original/AeK2MPOpYrOOgZNfFnfwp0L8tNn.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/original/14QbnygCuTO0vl7CAFmPf1fgZfV.jpg",
       "runtime": 148,
       "budget": 200000000,
-      "revenue": 1921206586
+      "revenue": 1921426073
     },
     {
-      "id": 1108427,
-      "rank": 8,
-      "title": "Moana",
+      "id": 1081003,
+      "rank": 4,
+      "title": "Supergirl",
       "year": 2026,
-      "releaseDate": "2026-07-10",
+      "releaseDate": "2026-06-25",
       "genre": [
+        "Action",
+        "Adventure",
+        "Science Fiction"
+      ],
+      "director": "Craig Gillespie",
+      "rating": 6.7,
+      "voteCount": 1736,
+      "popularity": 359.6,
+      "overview": "When an unexpected and ruthless adversary strikes too close to home, Kara Zor-El, aka Supergirl, reluctantly joins forces with an unlikely companion on an epic, interstellar journey of vengeance and justice.",
+      "posterPath": "https://image.tmdb.org/t/p/w500/1QCWdqzTfh2x9UylVpspIU6QTuM.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/original/4X2YSe8PaYbsBqX3TDmmIU4vOju.jpg",
+      "runtime": 108,
+      "budget": 175000000,
+      "revenue": 125901095
+    },
+    {
+      "id": 1284041,
+      "rank": 5,
+      "title": "The Last House",
+      "year": 2026,
+      "releaseDate": "2026-08-07",
+      "genre": [
+        "Horror",
+        "Science Fiction",
+        "Thriller"
+      ],
+      "director": "Louis Leterrier",
+      "rating": 6.7,
+      "voteCount": 323,
+      "popularity": 353.9,
+      "overview": "A family suddenly sealed inside their home must work together to survive against dwindling resources and the ominous threat keeping them trapped.",
+      "posterPath": "https://image.tmdb.org/t/p/w500/6JU7E8Vv2M11egkctWVOScxWR75.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/original/2mPmccLg8QCD4ZF6v8kSsUijPPW.jpg",
+      "runtime": 110,
+      "budget": 0,
+      "revenue": 0
+    },
+    {
+      "id": 1084244,
+      "rank": 6,
+      "title": "Toy Story 5",
+      "year": 2026,
+      "releaseDate": "2026-06-19",
+      "genre": [
+        "Animation",
         "Family",
-        "Fantasy",
         "Comedy",
         "Adventure"
       ],
-      "director": "Thomas Kail",
-      "rating": 5.8,
-      "voteCount": 162,
-      "popularity": 335,
-      "overview": "Teenage Moana answers the Ocean's call and, for the first time, voyages beyond the reef of her island of Motunui with infamous demigod Maui on an unforgettable journey to restore prosperity to her people.",
-      "posterPath": "https://image.tmdb.org/t/p/w500/zKVgiv5qHCvCLT4A2ymJi5QeXDH.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/original/c6BPbkO5Npt1OdwttAxCFo06wtH.jpg",
-      "runtime": 115,
+      "director": "Andrew Stanton",
+      "rating": 7.4,
+      "voteCount": 796,
+      "popularity": 337.1,
+      "overview": "When Bonnie receives a Lilypad tablet as a gift and becomes obsessed, Buzz, Woody, Jessie and the rest of the gang's jobs become exponentially harder when they have to go head to head with the all-new threat to playtime.",
+      "posterPath": "https://image.tmdb.org/t/p/w500/sfQtVlIHljToOwYjhe21KPGzZWK.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/original/8sSKdEmlmqF4kJUd28SqthXC4yZ.jpg",
+      "runtime": 102,
       "budget": 250000000,
-      "revenue": 261083124
+      "revenue": 1069518777
+    },
+    {
+      "id": 1275779,
+      "rank": 7,
+      "title": "Disclosure Day",
+      "year": 2026,
+      "releaseDate": "2026-06-10",
+      "genre": [
+        "Science Fiction",
+        "Thriller"
+      ],
+      "director": "Steven Spielberg",
+      "rating": 7.4,
+      "voteCount": 2610,
+      "popularity": 249.2,
+      "overview": "A cybersecurity expert becomes a whistleblower after uncovering secrets about aliens, putting him on the run from a corporation. Meanwhile, a meteorologist experiencing strange phenomena joins forces with him to prove there's life beyond our understanding.",
+      "posterPath": "https://image.tmdb.org/t/p/w500/AnJ8IQJI23hNpYXVNaythu061Ru.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/original/flxau5Iu7bChQHsESqvGZ3FQRaI.jpg",
+      "runtime": 146,
+      "budget": 115000000,
+      "revenue": 240659748
+    },
+    {
+      "id": 1339713,
+      "rank": 8,
+      "title": "Obsession",
+      "year": 2026,
+      "releaseDate": "2026-05-15",
+      "genre": [
+        "Horror",
+        "Thriller"
+      ],
+      "director": "Curry Barker",
+      "rating": 8.2,
+      "voteCount": 4497,
+      "popularity": 292.4,
+      "overview": "After breaking the mysterious \"One Wish Willow\" to win his crush's heart, a hopeless romantic finds himself getting exactly what he asked for but soon discovers that some desires come at a dark, sinister price.",
+      "posterPath": "https://image.tmdb.org/t/p/w500/bRwnj8WEKBCvmfeUNOukJPwB43K.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/original/rZfmzpixLKLR3Hg2u0WgC7XLFl8.jpg",
+      "runtime": 109,
+      "budget": 750000,
+      "revenue": 488059500
     },
     {
       "id": 1284465,
@@ -190,9 +190,9 @@
         "Action"
       ],
       "director": "Michael Sarnoski",
-      "rating": 6.5,
-      "voteCount": 147,
-      "popularity": 356.8,
+      "rating": 6.4,
+      "voteCount": 183,
+      "popularity": 304.6,
       "overview": "Grappling with his past after a life of crime and murder, Robin Hood finds himself gravely injured after a battle he thought would be his last. In the hands of a mysterious woman, he is offered a chance at salvation.",
       "posterPath": "https://image.tmdb.org/t/p/w500/92Tsfx7SFafOqWsotvrlJbHyehd.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/original/lh3BDkmWJh998n4fQcHYcVi7dpm.jpg",
@@ -201,27 +201,24 @@
       "revenue": 3200000
     },
     {
-      "id": 1084244,
+      "id": 1212763,
       "rank": 10,
-      "title": "Toy Story 5",
+      "title": "Evil Dead Burn",
       "year": 2026,
-      "releaseDate": "2026-06-19",
+      "releaseDate": "2026-07-10",
       "genre": [
-        "Animation",
-        "Family",
-        "Comedy",
-        "Adventure"
+        "Horror"
       ],
-      "director": "Andrew Stanton",
-      "rating": 7.4,
-      "voteCount": 743,
-      "popularity": 326,
-      "overview": "When Bonnie receives a Lilypad tablet as a gift and becomes obsessed, Buzz, Woody, Jessie and the rest of the gang's jobs become exponentially harder when they have to go head to head with the all-new threat to playtime.",
-      "posterPath": "https://image.tmdb.org/t/p/w500/sfQtVlIHljToOwYjhe21KPGzZWK.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/original/8sSKdEmlmqF4kJUd28SqthXC4yZ.jpg",
-      "runtime": 102,
-      "budget": 250000000,
-      "revenue": 1030604126
+      "director": "Sébastien Vaniček",
+      "rating": 7.9,
+      "voteCount": 866,
+      "popularity": 236.6,
+      "overview": "After her husband's abrupt death, Alice seeks solace with his remaining family — descendants of a leading researcher on demonic possession. As her in-laws transform one by one into creatures that feed on fear, she comes to discover that the vows she took in life survive even in death.",
+      "posterPath": "https://image.tmdb.org/t/p/w500/uRxrNXQWkHoENm3nwVOZDYSCx2F.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/original/biwEwIkjZhMUfXzz59bpeDzwYB6.jpg",
+      "runtime": 110,
+      "budget": 20000000,
+      "revenue": 66772865
     }
   ]
 }
