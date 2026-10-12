@@ -1,8 +1,8 @@
 // Auto-generated box office data
-// Last updated: 2026-10-05T17:38:04.173Z
+// Last updated: 2026-10-12T18:25:28.158Z
 
 let boxOfficeData = {
-  "lastUpdated": "2026-10-05T17:38:04.173Z",
+  "lastUpdated": "2026-10-12T18:25:28.158Z",
   "region": "Ireland",
   "source": "The Movie Database (TMDB)",
   "movies": [
@@ -18,42 +18,19 @@ let boxOfficeData = {
         "Adventure"
       ],
       "director": "Destin Daniel Cretton",
-      "rating": 7.9,
-      "voteCount": 3026,
-      "popularity": 623.4,
+      "rating": 8.4,
+      "voteCount": 5194,
+      "popularity": 1024.5,
       "overview": "Fighting crime full-time as Spider-Man in a world that doesn't remember him—and the pressure of seeing his old friends move on without him—sparks a change in Peter Parker he may not have the power to control. But that transformation might also be the only thing that can stop a shocking new threat to the city and those he loves - a powerful villain no one can even see.",
       "posterPath": "https://image.tmdb.org/t/p/w500/bjiS5ipwxb9JFy3XRRN4OAilSeX.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/original/qeQJx07rK2xm8SD2sJxFKhE7gs0.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/original/subj7knTn4DeS6KS7qI66EQKe9i.jpg",
       "runtime": 145,
       "budget": 225000000,
-      "revenue": 2505477000
-    },
-    {
-      "id": 1599191,
-      "rank": 2,
-      "title": "Renegade Immortal: Battle of the Immortal Slayer",
-      "year": 2026,
-      "releaseDate": "2026-10-01",
-      "genre": [
-        "Animation",
-        "Action",
-        "Adventure",
-        "Fantasy"
-      ],
-      "director": "TouXiong Shi",
-      "rating": 7.8,
-      "voteCount": 12,
-      "popularity": 432.5,
-      "overview": "Trapped in a fatal pursuit within the Celestial Realm of Thunder, Wang Lin faces his ultimate crisis. Watch the underdog defy the odds, flip the script in a world-shaking counterattack, and achieve the ultimate, magnificent feat: SLAYING A CELESTIAL.",
-      "posterPath": "https://image.tmdb.org/t/p/w500/cpgLuRAT8SW7YiZaBYUGZ43GiLL.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/original/rJT7ARv4G2sr1uTZnBEUSigg1hf.jpg",
-      "runtime": 0,
-      "budget": 0,
-      "revenue": 0
+      "revenue": 2512865567
     },
     {
       "id": 1423191,
-      "rank": 3,
+      "rank": 2,
       "title": "Resident Evil",
       "year": 2026,
       "releaseDate": "2026-09-18",
@@ -64,14 +41,35 @@ let boxOfficeData = {
       ],
       "director": "Zach Cregger",
       "rating": 7.3,
-      "voteCount": 750,
-      "popularity": 364.5,
+      "voteCount": 895,
+      "popularity": 667.2,
       "overview": "Medical courier Bryan unwittingly finds himself fighting for survival as one fateful, horrifying night collapses around him in chaos.",
       "posterPath": "https://image.tmdb.org/t/p/w500/i7UyjfPio0VFHB9rBUZSFyhOoM8.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/original/3icyRAqgakNcQn6aDVz9libFmBA.jpg",
       "runtime": 95,
       "budget": 75000000,
-      "revenue": 245400000
+      "revenue": 320225000
+    },
+    {
+      "id": 1291595,
+      "rank": 3,
+      "title": "Insidious: Out of the Further",
+      "year": 2026,
+      "releaseDate": "2026-08-21",
+      "genre": [
+        "Horror",
+        "Thriller"
+      ],
+      "director": "Jacob Chase",
+      "rating": 7.7,
+      "voteCount": 649,
+      "popularity": 552.6,
+      "overview": "Gemma, a young mother raising her daughter in the house she grew up in, discovers she can travel into The Further, the purgatorial realm of lost souls at the heart of the Insidious universe. When something evil comes after her, Gemma discovers an ability that changes everything: she doesn't just enter The Further, she can bring what lives there back to the real world. Once the demons realize her power, our world becomes their playground.",
+      "posterPath": "https://image.tmdb.org/t/p/w500/4tTrW9dXCByS5wt2pXVWb58zNjz.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/original/p40lmrdI4blcAPZQMTPaiy5v5Ym.jpg",
+      "runtime": 106,
+      "budget": 18000000,
+      "revenue": 169694167
     },
     {
       "id": 1368337,
@@ -86,18 +84,60 @@ let boxOfficeData = {
       ],
       "director": "Christopher Nolan",
       "rating": 8,
-      "voteCount": 4016,
-      "popularity": 322,
+      "voteCount": 4101,
+      "popularity": 420.3,
       "overview": "Odysseus, the legendary King of Ithaca, embarks on a long and perilous journey home following the Trojan War. Throughout his voyage, he is forced to confront the whims of gods, mythological monsters, and trials that stretch both his cunning and his humanity to the breaking point.",
       "posterPath": "https://image.tmdb.org/t/p/w500/5rhTDKUhPYvpdQIijFIs5VoWsON.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/original/bulFtfy3oBQtCnAMSi7g6DSSds3.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/original/twiVn9oFXOVR0uoYgawyEBlnFu8.jpg",
       "runtime": 173,
       "budget": 250000000,
-      "revenue": 1767464000
+      "revenue": 1779770790
+    },
+    {
+      "id": 1148365,
+      "rank": 5,
+      "title": "Matchbox the Movie",
+      "year": 2026,
+      "releaseDate": "2026-10-09",
+      "genre": [
+        "Action",
+        "Comedy",
+        "Adventure"
+      ],
+      "director": "Sam Hargrave",
+      "rating": 7.9,
+      "voteCount": 233,
+      "popularity": 354.5,
+      "overview": "When a group of former childhood friends reconnect, their reunion takes a wild turn as they stumble upon a dangerous international plot—and must save the world.",
+      "posterPath": "https://image.tmdb.org/t/p/w500/lFKA4GMz36dImEy3DQPdPF7G4V9.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/original/4N2Ur9ald3D1rncUzmskcwe9PCK.jpg",
+      "runtime": 127,
+      "budget": 0,
+      "revenue": 0
+    },
+    {
+      "id": 1101412,
+      "rank": 6,
+      "title": "Fall 2: Deadpoint",
+      "year": 2026,
+      "releaseDate": "2026-09-09",
+      "genre": [
+        "Thriller"
+      ],
+      "director": "Peter Spierig",
+      "rating": 7.3,
+      "voteCount": 456,
+      "popularity": 301.4,
+      "overview": "On a perilous climb across Thailand's Mount Kwan, two climbers become trapped thousands of feet above the ground, where vertigo-inducing heights, sheer exposure, and impossible odds turn every moment into a fight for survival.",
+      "posterPath": "https://image.tmdb.org/t/p/w500/fgSm5ylwiXbIHn8UbUXDjk9RRu4.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/original/yBDxqDB29kpH9VojTytjGWBgmdJ.jpg",
+      "runtime": 98,
+      "budget": 3000000,
+      "revenue": 9256541
     },
     {
       "id": 1228834,
-      "rank": 5,
+      "rank": 7,
       "title": "The Fix",
       "year": 2026,
       "releaseDate": "2026-09-10",
@@ -106,9 +146,9 @@ let boxOfficeData = {
         "Thriller"
       ],
       "director": "Guy Moshe",
-      "rating": 7.1,
-      "voteCount": 46,
-      "popularity": 319.4,
+      "rating": 6.8,
+      "voteCount": 58,
+      "popularity": 295,
       "overview": "Disillusioned by the end of the war in Afghanistan, a group of disgraced, war-torn ex-CIA operatives set out to Tehran to take down a life-changing score.",
       "posterPath": "https://image.tmdb.org/t/p/w500/yopXjun3ICFfJci2ukcEzceZjUs.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/original/yT8EkAvEkJDFeAxK7s7HlIPELRT.jpg",
@@ -118,7 +158,7 @@ let boxOfficeData = {
     },
     {
       "id": 1377237,
-      "rank": 6,
+      "rank": 8,
       "title": "Runner",
       "year": 2026,
       "releaseDate": "2026-09-11",
@@ -128,101 +168,55 @@ let boxOfficeData = {
       ],
       "director": "Scott Waugh",
       "rating": 8.3,
-      "voteCount": 379,
-      "popularity": 312.4,
+      "voteCount": 494,
+      "popularity": 287.4,
       "overview": "A former soldier is thrown into a brutal race against time when a critical medical delivery makes him and his unlikely partner the targets of a ruthless cartel. As the mission spirals into a deadly manhunt, every detour, delay, and bullet pushes them closer to failure. With betrayal closing in from every side, they must survive the chase and deliver their cargo to save the life of a little girl.",
       "posterPath": "https://image.tmdb.org/t/p/w500/yBKMAIj7clP42UkFejhGDBBoTpb.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/original/2c9zNZJL0ZdagD6JbmU3hH4hovs.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/original/iXR79oKsLHwLno9jdzxxeFP21sy.jpg",
       "runtime": 97,
       "budget": 0,
       "revenue": 6432956
     },
     {
-      "id": 1204680,
-      "rank": 7,
-      "title": "Coyote vs. Acme",
+      "id": 1236045,
+      "rank": 9,
+      "title": "Animals",
       "year": 2026,
-      "releaseDate": "2026-08-21",
+      "releaseDate": "2026-10-09",
       "genre": [
-        "Comedy",
-        "Adventure",
-        "Family"
+        "Thriller",
+        "Drama"
       ],
-      "director": "Dave Green",
-      "rating": 7.5,
-      "voteCount": 669,
-      "popularity": 295.2,
-      "overview": "After Acme products fail him one too many times in his dogged pursuit of the Roadrunner, Wile E. Coyote decides to hire a billboard lawyer to sue the Acme Corporation.",
-      "posterPath": "https://image.tmdb.org/t/p/w500/kYDCl2y0VPvhT5eYWbMRInPoB03.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/original/viZqGq9TNvQ5uXSD4ahg2RpRONT.jpg",
-      "runtime": 103,
-      "budget": 72000000,
-      "revenue": 88043208
-    },
-    {
-      "id": 1751701,
-      "rank": 8,
-      "title": "After Impact",
-      "year": 2026,
-      "releaseDate": "2026-09-15",
-      "genre": [
-        "Science Fiction",
-        "Drama",
-        "Thriller"
-      ],
-      "director": "Michiel Rensen",
-      "rating": 6.2,
-      "voteCount": 23,
-      "popularity": 274.7,
-      "overview": "After losing his father, Ethan Nichols inherits one of the largest greenhouses in the country, just as the world faces a devastating threat from an approaching asteroid. As society begins to unravel, Ethan grapples with personal betrayal, overwhelming loneliness, and the growing fear that survival may come at the cost of his humanity. Seeking refuge in his family’s bunker, Ethan endures the harsh aftermath of the impact, wrestling with physical injury and emotional despair. When a faint voice crackles over his radio, Ethan discovers he's not as alone as he believed.",
-      "posterPath": "https://image.tmdb.org/t/p/w500/yzDuAQCY2n6zzOlBkn6JzhLhY3k.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/original/k22XyPbce7zvzzf5OnT4uaY8ZD1.jpg",
-      "runtime": 95,
-      "budget": 100000,
+      "director": "Ben Affleck",
+      "rating": 7.4,
+      "voteCount": 252,
+      "popularity": 240.3,
+      "overview": "When the son of an L.A. mayoral candidate is kidnapped, he and his wife have a few hours to come up with the ransom payment. With most of their money spent on his political campaign, they have to get their hands dirty and expose a side of their lives they never intended to see the light of day.",
+      "posterPath": "https://image.tmdb.org/t/p/w500/cyltXU1lAGhRFBuHQIMWBAPj8fI.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/original/tzoarEu7TsG959upiELyYPm5kO9.jpg",
+      "runtime": 106,
+      "budget": 0,
       "revenue": 0
     },
     {
-      "id": 1101383,
-      "rank": 9,
-      "title": "The End of Oak Street",
-      "year": 2026,
-      "releaseDate": "2026-08-14",
-      "genre": [
-        "Science Fiction",
-        "Mystery",
-        "Thriller"
-      ],
-      "director": "David Robert Mitchell",
-      "rating": 7.1,
-      "voteCount": 1856,
-      "popularity": 240.4,
-      "overview": "After a mysterious cosmic event rips Oak Street from suburbia and transports their neighborhood to someplace unknown, the Platt family soon discovers that their very survival depends on them sticking together as they navigate their now unrecognizable surroundings.",
-      "posterPath": "https://image.tmdb.org/t/p/w500/fYXqpgPmHMphSF2W30GbTeJVIa5.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/original/b9q9VmbXDvJmTziRqkwdEmFdwhr.jpg",
-      "runtime": 100,
-      "budget": 80000000,
-      "revenue": 120363694
-    },
-    {
-      "id": 1248832,
+      "id": 1712451,
       "rank": 10,
-      "title": "Digger",
+      "title": "Resident Dead",
       "year": 2026,
-      "releaseDate": "2026-10-02",
+      "releaseDate": "2026-09-04",
       "genre": [
-        "Comedy",
-        "Drama"
+        "Horror"
       ],
-      "director": "Alejandro G. Iñárritu",
-      "rating": 7.5,
-      "voteCount": 155,
-      "popularity": 231.9,
-      "overview": "The most powerful man in the world embarks on a frantic mission to prove he is humanity's savior before the disaster he's unleashed destroys everything.",
-      "posterPath": "https://image.tmdb.org/t/p/w500/1ATXKrIPJyKNwnJ6lcG088Sa6zi.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/original/b7t3r39Oll5qPxBKzLZ8eHMBD7l.jpg",
-      "runtime": 129,
-      "budget": 180000000,
-      "revenue": 3400000
+      "director": "Ryan Ebert",
+      "rating": 6.3,
+      "voteCount": 8,
+      "popularity": 232.5,
+      "overview": "A man keeping his recently zombified daughter secure in hopes of a cure is tasked with delivering an unknown package through hordes of undead. If he succeeds, he will be given a cure for his daughter. If he fails, or opens the package, they will both be killed.",
+      "posterPath": "https://image.tmdb.org/t/p/w500/qKhMVWwFikSUzOpkhOl35GBLkGH.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/original/yKx5gYrYgakKZuUWAsuFDStBroy.jpg",
+      "runtime": 89,
+      "budget": 0,
+      "revenue": 0
     }
   ]
 };
